@@ -16,7 +16,8 @@ My focus areas include threat intelligence, risk management, security program de
 ## 👨‍💻 Projects
 
 ### 🔴 Red Team & Threat Intelligence
-- **[Agentic-AI-Red-Team-Framework-v3.0-Readme](#)** — An Agentic SOC Lab for Detection + IR for LLM/agent tool abuse with audit-ready telemetry.
+
+- **[Agentic-AI-Red-Team-Framework-v3.0-Readme](#)** — The Agentic AI Red Team Framework is a modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Threat Intelligence
 
