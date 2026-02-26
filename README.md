@@ -15,6 +15,9 @@ My focus areas include threat intelligence, risk management, security program de
 
 ## 👨‍💻 Projects
 
+### 🔴 Red Team & Threat Intelligence
+- **[Agentic-AI-Red-Team-Framework-v3.0-Readme](#)** — An Agentic SOC Lab for Detection + IR for LLM/agent tool abuse with audit-ready telemetry.
+
 ### 🔵 Blue Team & Threat Intelligence
 
 - **[AgentGuard-A-Runtime-Authority-Enforcement-Layer-Readme](#)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems
