@@ -17,7 +17,7 @@ My focus areas include threat intelligence, risk management, security program de
 
 ### 🔵 Blue Team & Threat Intelligence
 
-- **[AgentGuard-A-Runtime-Authority-Enforcement-Layer-Readme]#)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems
+- **[AgentGuard-A-Runtime-Authority-Enforcement-Layer-Readme](#)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems
 - **[Enterprise-Agentic-SOC-Platform-Readme](#)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
 - **[Agentic-SOC-Lab](#)** — An Agentic SOC Lab for Detection + IR for LLM/agent tool abuse with audit-ready telemetry.
 
