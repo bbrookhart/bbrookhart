@@ -15,21 +15,19 @@ My focus areas include threat intelligence, risk management, security program de
 
 ## 👨‍💻 Projects
 
-### 🔴 Red Team & Threat Intelligence
-
-- **[Agentic-AI-Red-Team-Framework-v3.0-Readme](#)** — The Agentic AI Red Team Framework is a modular, Python-native adversarial security assessment platform built for enterprise environments.
-
-### 🔵 Blue Team & Threat Intelligence
-
-- **[AgentGuard-A-Runtime-Authority-Enforcement-Layer-Readme](#)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems
-- **[Enterprise-Agentic-SOC-Platform-Readme](#)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
-- **[Agentic-SOC-Lab](#)** — An Agentic SOC Lab for Detection + IR for LLM/agent tool abuse with audit-ready telemetry.
-
 ### 🛡️ GRC & Risk Management
-
+- **[MLflow-Sentinel-Readme](#)** — Production ML Pipeline Observability — From Training to Drift
 - **[ClearPath-Health-AI-Risk-Register-Readme](#)** —  A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments. Built to demonstrate practical implementation of the NIST AI Risk Management Framework, MITRE ATLAS threat classification, FDA AI/ML SaMD guidance, and SOC 2 controls.
 - **[AetherHorizon-Governance-Frameworks-Readme](#)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System),
 ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
+
+### 🔴 Red Team & Threat Intelligence
+- **[Agentic-AI-Red-Team-Framework-v3.0-Readme](#)** — The Agentic AI Red Team Framework is a modular, Python-native adversarial security assessment platform built for enterprise environments.
+
+### 🔵 Blue Team & Threat Intelligence
+- **[AgentGuard-A-Runtime-Authority-Enforcement-Layer-Readme](#)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems
+- **[Enterprise-Agentic-SOC-Platform-Readme](#)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
+- **[Agentic-SOC-Lab](#)** — An Agentic SOC Lab for Detection + IR for LLM/agent tool abuse with audit-ready telemetry.
 
 ---
 
