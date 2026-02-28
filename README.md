@@ -75,7 +75,7 @@ ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evid
 ## 🤳 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
-[![True North Advisory](https://img.shields.io/badge/True_North_Advisory-1E3A5F?style=for-the-badge&logo=shieldcheck&logoColor=white)](#)
+
 
 ---
 
