@@ -2,7 +2,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
 ![Visitors](https://komarev.com/ghpvc/?username=bbrookhart&label=Visitors&color=brightgreen&style=for-the-badge)
-
 ![github contribution grid snake animation](https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg)
 
 ---
@@ -16,25 +15,22 @@ My focus areas include threat intelligence, risk management, security program de
 ## 👨‍💻 Projects
 
 ### 🛡️ GRC & Risk Management
-- **[https://github.com/bbrookhart/MLflow-Sentinel](#)** — Production ML Pipeline Observability — From Training to Drift
-- **[https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme](#)** –  A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
-- **[https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme](#)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System),
-ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
+- **[MLflow-Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
+- **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
+- **[AetherHorizon Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
 
 ### 🔴 Red Team & Threat Intelligence
-- **[https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme](#)** — The Agentic AI Red Team Framework is a modular, Python-native adversarial security assessment platform built for enterprise environments.
+- **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Threat Intelligence
-- **[https://github.com/bbrookhart/AgentGuard](#)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems
-- **[https://github.com/bbrookhart/Enterprise-Agentic-SOC-Platform-Readme](#)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
+- **[AgentGuard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems.
+- **[Enterprise Agentic SOC Platform](https://github.com/bbrookhart/Enterprise-Agentic-SOC-Platform-Readme)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
 
-### ⚠️ Vulnerability Management Project
-- **[https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md](#)** — A full hands-on vulnerability management implemetation.
+### ⚠️ Vulnerability Management
+- **[Vulnerability Management Implementation](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)** — A full hands-on vulnerability management implementation.
 
 ### 🚨 Security Operations & Incident Response
-- **[https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_&_Incident_Response.md](#)** — A full hands-on vulnerability management implemetation.
-
----
+- **[Security Operations & Incident Response](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)** — A full hands-on security operations and incident response implementation.---
 
 ## 🧰 Tools & Technologies
 
