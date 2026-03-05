@@ -83,7 +83,9 @@ My focus areas include threat intelligence, risk management, security program de
 [![](https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](#)
 [![](https://img.shields.io/badge/-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](#)
 [![](https://img.shields.io/badge/-CrewAI-FF4B4B?style=for-the-badge&logo=crewai&logoColor=white)](#)
-[![](https://img.shields.io/badge/-OWASP_LLM_Top10-000000?style=for-the-badge&logo=owasp&logoColor=white)](#)---
+[![](https://img.shields.io/badge/-OWASP_LLM_Top10-000000?style=for-the-badge&logo=owasp&logoColor=white)](#)
+
+---
 
 ## 📜 Certifications
 
