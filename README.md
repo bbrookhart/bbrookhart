@@ -87,9 +87,7 @@ My focus areas include threat intelligence, risk management, security program de
 
 ---
 
-## 📜 Certifications
-
-> *(Update with your current and in-progress certifications)*
+## 📜 Certifications / Education
 
 - 🏅 **CompTIA PenTest+, CySA+, ISC2 CC, Google Cybersecurity, Google Data Analytics**
 - 📚 **M.S. Cybersecurity & Information Assurance (9/2026 Expected), BBA Business Analytics** 
