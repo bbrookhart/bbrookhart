@@ -44,8 +44,6 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[AetherHorizon Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
 
 ### 🔴 Red Team & Threat Intelligence
-- **[SurfaceMapper](https://github.com/bbrookhart/SurfaceMapper)** — a fully autonomous, AI-augmented attack surface mapping platform that continuously discovers, enumerates, and scores an organization's externally facing assets — before adversaries find them first.
-- **[PromptArmor](https://github.com/bbrookhart/PromptArmor)** — a fully automated red-team scanner that systematically fires 60+ prompt injection attack payloads against any LLM system prompt — then uses a separate Claude instance as an independent AI judge to determine whether each attack succeeded.
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
