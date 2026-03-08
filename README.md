@@ -37,7 +37,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 
 ###  ⭐️ AetherHorizon Agentic AI GRC Security Platform
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesise results into actionable intelligence.
--
+
 - ### 🛡️ GRC & Risk Management
 - **[MLflow-Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
 - **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
