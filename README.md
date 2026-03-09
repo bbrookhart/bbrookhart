@@ -11,10 +11,6 @@
 
 ## About
 
-I know what it feels like when the system fails you. I've stood on both sides of the digital divide — experiencing the violation of a personal data breach and witnessing the life-altering friction of a broken healthcare system.
-
-Those weren't incidents. They were intelligence.
-
 **The threat has evolved. Most organizations haven't.**
 
 We are entering an era of agentic AI — systems that don't just respond, they plan, act, and execute autonomously across critical infrastructure, healthcare, and national security environments. The attack surface isn't a server anymore. **It's a decision.** And once an autonomous agent executes, the window to intervene has already closed.
