@@ -31,7 +31,8 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 
 ## 👨‍💻 Projects
 
-###  ⭐️ AetherHorizon Agentic AI GRC Security Platform
+###  ⭐️ 💡 Spotlight 
+- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — Adversarial-Grade Defense Layer for Retrieval-Augmented Generation Systems.
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
 
 ### 🛡️ GRC & Risk Management
@@ -43,7 +44,6 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
-- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — Adversarial-Grade Defense Layer for Retrieval-Augmented Generation Systems.
 - **[AgentGuard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. A Runtime Authority Enforcement for Agentic AI Systems.
 - **[Enterprise Agentic SOC Platform](https://github.com/bbrookhart/Enterprise-Agentic-SOC-Platform-Readme)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
 
