@@ -34,7 +34,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ###  ⭐️ AetherHorizon Agentic AI GRC Security Platform
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
 
-- ### 🛡️ GRC & Risk Management
+### 🛡️ GRC & Risk Management
 - **[MLflow-Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
 - **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
 - **[AetherHorizon Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
@@ -43,7 +43,8 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
-- **[AgentGuard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. Runtime Authority Enforcement for Agentic AI Systems.
+- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — Adversarial-Grade Defense Layer for Retrieval-Augmented Generation Systems.
+- **[AgentGuard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. A Runtime Authority Enforcement for Agentic AI Systems.
 - **[Enterprise Agentic SOC Platform](https://github.com/bbrookhart/Enterprise-Agentic-SOC-Platform-Readme)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
 
 ### ⚠️ Vulnerability Management
