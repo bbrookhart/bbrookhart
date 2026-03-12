@@ -32,7 +32,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ## 👨‍💻 Projects
 
 ###  ⭐️ 💡 Spotlight 
-- **[MelodyGuard](https://github.com/bbrookhart/MelodyGuard)** — A production-grade agentic AI system that understands music theory, protects user privacy, and defends against threats.
+- **[MelodyGuard](https://github.com/bbrookhart/MelodyGuard)** — A production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern agentic threats.
 - **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — Adversarial-Grade Defense Layer for Retrieval-Augmented Generation Systems.
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
 
