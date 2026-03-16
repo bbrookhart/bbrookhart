@@ -32,10 +32,11 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ## 👨‍💻 Projects
 
 ###  ⭐️ 💡 Spotlight 
-- **[Likeness_Rights_OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — Prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
-- **[MelodyGuard](https://github.com/bbrookhart/MelodyGuard)** — A production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
-- **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – Execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
-- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — Adversarial-Grade Defense Layer for Retrieval-Augmented Generation Systems.
+- **[Likeness_Rights_OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
+- **[MelodyGuard](https://github.com/bbrookhart/MelodyGuard)** — a production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
+- **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
+- **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
+- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
   
 ### 🛡️ GRC & Risk Management
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
