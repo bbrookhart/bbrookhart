@@ -34,10 +34,11 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ###  ⭐️ 💡 Spotlight 
 - **[Likeness_Rights_OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — Prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
 - **[MelodyGuard](https://github.com/bbrookhart/MelodyGuard)** — A production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
+- **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – Execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
 - **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — Adversarial-Grade Defense Layer for Retrieval-Augmented Generation Systems.
-- **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
-
+  
 ### 🛡️ GRC & Risk Management
+- **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
 - **[MLflow-Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
 - **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
 - **[AetherHorizon Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
