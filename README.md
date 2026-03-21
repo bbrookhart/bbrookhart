@@ -31,23 +31,26 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 
 ## 👨‍💻 Projects
 
-###  ⭐️ 💡 Spotlight 
+###  ⚕️🏥 Healthcare Sector Solutions
+- **[Healthcare-Breach-Intelligence-Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
+- **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
+
+###  ⭐️ 🎭 Entertainment Sector Solutions 
 - **[Likeness_Rights_OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
 - **[MelodyGuard](https://github.com/bbrookhart/MelodyGuard)** — a production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
-- **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
-- **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
-- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
   
 ### 🛡️ GRC & Risk Management
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
 - **[MLflow-Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
-- **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
 - **[AetherHorizon Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
 
 ### 🔴 Red Team & Threat Intelligence
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
+- **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
+- **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
+- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
 - **[AgentGuard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. A Runtime Authority Enforcement for Agentic AI Systems.
 - **[Enterprise Agentic SOC Platform](https://github.com/bbrookhart/Enterprise-Agentic-SOC-Platform-Readme)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
 
