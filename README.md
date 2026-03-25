@@ -48,11 +48,11 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
+- **[Autonomous-Multi-Agent-SIEM-Triage](https://github.com/bbrookhart/Autonomous-Multi-Agent-SIEM-Triage)** - Production-grade multi-agent AI pipeline: Triage → Investigator → Reporter
 - **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
 - **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
 - **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
 - **[AgentGuard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. A Runtime Authority Enforcement for Agentic AI Systems.
-- **[Enterprise Agentic SOC Platform](https://github.com/bbrookhart/Enterprise-Agentic-SOC-Platform-Readme)** — A fully functional, agentic production-grade Security Operations Center for modern multi-cloud environments.
 
 ### ⚠️ Vulnerability Management
 - **[Vulnerability Management Implementation](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)** — A full hands-on vulnerability management implementation.
