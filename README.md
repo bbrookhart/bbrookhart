@@ -49,6 +49,8 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
+- **[Agent-Firewall-Military-Grade-Adversarial-Prompt-Injection-Detector](https://github.com/bbrookhart/Agent-Firewall-Military-Grade-Adversarial-Prompt-Injection-Detector)** - A
+Production-grade, DoD IL5-aligned real-time proxy for LLM/agent security.
 - **[Autonomous-Multi-Agent-SIEM-Triage](https://github.com/bbrookhart/Autonomous-Multi-Agent-SIEM-Triage)** - Production-grade multi-agent AI pipeline: Triage → Investigator → Reporter
 - **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
 - **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
