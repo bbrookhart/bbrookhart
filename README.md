@@ -40,7 +40,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
 
 ###  ⭐️ 🎭 Entertainment Sector Solutions 
-- **[Likeness_Rights_OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
+- **[Likeness Rights OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
 - **[MelodyGuard](https://github.com/bbrookhart/MelodyGuard)** — a production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
   
 ### 🛡️ GRC & Risk Management
