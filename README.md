@@ -65,6 +65,9 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ### 🚨 Security Operations & Incident Response
 - **[Security Operations & Incident Response](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)** — A full hands-on security operations and incident response implementation.
 
+### 💪🏼 Future-Proof Skills
+-**[AetherSentinel](https://github.com/bbrookhart/Aether-Sentinel)** - a secure, tool-using AI platform that helps analysts review information, answer grounded questions, and propose controlled actions with approval gates and full auditability. This is a step-by-step beginner build to learn the essentials.
+
 ---
 
 ## 🧰 Tools & Technologies
