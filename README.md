@@ -35,7 +35,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Project Iron Shield](https://github.com/bbrookhart/Project-Iron-Shield)** - Project Iron Shield is a zero-trust, threat-informed cyber defense ecosystem designed and engineered using public U.S. government-aligned cybersecurity frameworks and production-grade security architecture principles.
 
 ###  ⚕️🏥 Healthcare Sector Solutions
-- **[Healthcare-Breach-Intelligence-Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
+- **[Healthcare Breach Intelligence Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
 - **[HIPAA Security Risk Assessment Framework](https://github.com/bbrookhart/HIPAA-Security-Risk-Assessment-SRA-Framework)** - A production-grade HIPAA Security Risk Assessment engine aligned to 45 CFR § 164, the HHS OCR Audit Protocol, and NIST Cybersecurity Framework 2.0.
 - **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
 
@@ -45,18 +45,18 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
   
 ### 🛡️ GRC & Risk Management
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
-- **[MLflow-Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
+- **[MLflow Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
 - **[AetherHorizon Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
 
 ### 🔴 Red Team & Threat Intelligence
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
-- **[Autonomous-Multi-Agent-SIEM-Triage](https://github.com/bbrookhart/Autonomous-Multi-Agent-SIEM-Triage)** - Production-grade multi-agent AI pipeline: Triage → Investigator → Reporter
-- **[Agent-Firewall-Adversarial-Prompt-Injection-Detector](https://github.com/bbrookhart/Agent-Firewall-Military-Grade-Adversarial-Prompt-Injection-Detector)** - A Production-grade, DoD IL5-aligned real-time proxy for LLM/agent security.
-- **[Agent-Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
+- **[Autonomous Multi Agent-SIEM Triage](https://github.com/bbrookhart/Autonomous-Multi-Agent-SIEM-Triage)** - Production-grade multi-agent AI pipeline: Triage → Investigator → Reporter
+- **[Agent Firewall (Adversarial Prompt Injection Detector)](https://github.com/bbrookhart/Agent-Firewall-Military-Grade-Adversarial-Prompt-Injection-Detector)** - A Production-grade, DoD IL5-aligned real-time proxy for LLM/agent security.
+- **[AgentScope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
 - **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
-- **[RAG-Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
+- **[RAG Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
 - **[AgentGuard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. A Runtime Authority Enforcement for Agentic AI Systems.
 
 ### ⚠️ Vulnerability Management
