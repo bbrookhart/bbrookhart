@@ -31,6 +31,9 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 
 ## 👨‍💻 Projects
 
+###  🛡️ Cyber Defense Ecosystem
+- **[Project Iron Shield](https://github.com/bbrookhart/Project-Iron-Shield)** - Project Iron Shield is a zero-trust, threat-informed cyber defense ecosystem designed and engineered using public U.S. government-aligned cybersecurity frameworks and production-grade security architecture principles.
+
 ###  ⚕️🏥 Healthcare Sector Solutions
 - **[Healthcare-Breach-Intelligence-Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
 - **[HIPAA Security Risk Assessment Framework](https://github.com/bbrookhart/HIPAA-Security-Risk-Assessment-SRA-Framework)** - A production-grade HIPAA Security Risk Assessment engine aligned to 45 CFR § 164, the HHS OCR Audit Protocol, and NIST Cybersecurity Framework 2.0.
