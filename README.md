@@ -49,6 +49,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[AetherHorizon Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
 
 ### 🔴 Red Team & Threat Intelligence
+- **[Vanguard AI](https://github.com/bbrookhart/Vanguard-Agentic-AI-Security-Validation)** is a real, multi-tenant SaaS platform for authorized security validation of customer-owned assets.
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
