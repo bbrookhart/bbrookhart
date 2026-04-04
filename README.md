@@ -36,7 +36,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Sentinel Flow](https://github.com/bbrookhart/SentinelFlow)** - Autonomous SOC Orchestration & Multi-Agent Investigation Platform
 - **[Aegis Gate](https://github.com/bbrookhart/AegisGate)** - Adversarial Prompt Injection Detector & Agent Firewall
 - **[Continuum Auth](https://github.com/bbrookhart/ContinuumAuth)** - Behavioral Biometrics & Continuous Authentication Agent
-- **[Arena Sec](https://github.com/bbrookhart/ArenaSec)** Agentic Threat Response Simulator for Safe Red Team vs Blue Team Evaluation
+- **[Arena Sec](https://github.com/bbrookhart/ArenaSec)** - Agentic Threat Response Simulator for Safe Red Team vs Blue Team Evaluation
 
 ###  ⚕️🏥 Healthcare Sector Solutions
 - **[Healthcare Breach Intelligence Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
