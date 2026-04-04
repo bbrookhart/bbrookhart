@@ -41,7 +41,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ###  ⚕️🏥 Healthcare Sector Solutions
 - **[Healthcare Breach Intelligence Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
 - **[HIPAA Security Risk Assessment Framework](https://github.com/bbrookhart/HIPAA-Security-Risk-Assessment-SRA-Framework)** - A production-grade HIPAA Security Risk Assessment engine aligned to 45 CFR § 164, the HHS OCR Audit Protocol, and NIST Cybersecurity Framework 2.0.
-- **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** — A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
+- **[ClearPath Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** - A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
 
 ###  ⭐️ 🎭 Entertainment Sector Solutions 
 - **[Likeness Rights OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
