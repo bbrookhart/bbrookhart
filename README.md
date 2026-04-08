@@ -34,7 +34,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ###  🛡️ Agentic AI Security Portfolio
 - **[Aegis Zero](https://github.com/bbrookhart/Aegis-Zero)** - Aegis Zero is a zero-trust, threat-informed cyber defense ecosystem designed and engineered using public U.S. government-aligned cybersecurity frameworks and production-grade security architecture principles.
 - **[Sentinel Flow](https://github.com/bbrookhart/SentinelFlow)** - Autonomous SOC Orchestration & Multi-Agent Investigation Platform
-- **[Aegis Gate](https://github.com/bbrookhart/AegisGate)** - Adversarial Prompt Injection Detector & Agent Firewall
+- **[Aether Sentry](https://github.com/bbrookhart/AetherSentry)** - Adversarial Prompt Injection Detector & Agent Firewall
 - **[Continuum Auth](https://github.com/bbrookhart/ContinuumAuth)** - Behavioral Biometrics & Continuous Authentication Agent
 - **[Arena Sec](https://github.com/bbrookhart/ArenaSec)** - Agentic Threat Response Simulator for Safe Red Team vs Blue Team Evaluation
 
