@@ -31,6 +31,12 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 
 ## 👨‍💻 Projects
 
+### 🛡️ GRC & Risk Management
+- **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
+- **[MLflow Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
+- **[Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
+
+
 ###  🛡️ Agentic AI Security Portfolio
 - **[Aegis Zero](https://github.com/bbrookhart/Aegis-Zero)** - Aegis Zero is a zero-trust, threat-informed cyber defense ecosystem designed and engineered using public U.S. government-aligned cybersecurity frameworks and production-grade security architecture principles.
 - **[Sentinel Flow](https://github.com/bbrookhart/SentinelFlow)** - Autonomous SOC Orchestration & Multi-Agent Investigation Platform
@@ -47,11 +53,6 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Likeness Rights OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
 - **[Melody Guard](https://github.com/bbrookhart/MelodyGuard)** — a production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
   
-### 🛡️ GRC & Risk Management
-- **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
-- **[MLflow Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
-- **[Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
-
 ### 🔴 Red Team & Threat Intelligence
 - **[Vanguard AI](https://github.com/bbrookhart/Vanguard-Agentic-AI-Security-Validation)** - A real, multi-tenant SaaS platform for authorized security validation of customer-owned assets.
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
