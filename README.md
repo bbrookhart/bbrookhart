@@ -32,7 +32,6 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ## 👨‍💻 Projects
 
 ### 🛡️ GRC & Risk Management
-- **[Multi-Agent-Federated-Learning-Security-Scanner](https://github.com/bbrookhart/Multi-Agent-Federated-Learning-Security-Scanner-Readme)** - An open-source red-teaming and defensive aggregation framework designed to secure Federated Learning (FL) ecosystems, specifically built for high-stakes environments like distributed clinical research orchestration.
 - **[ZeroTrust-LLM-Gateway](https://github.com/bbrookhart/ZeroTrust-LLM-Gateway-Readme)** - An open-source, API-level reverse proxy designed to secure Large Language Model (LLM) deployments in highly regulated environments (e.g., Healthcare, Clinical Informatics, Finance).
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
 - **[AI Governance as Code: Automated Compliance Analyzer](https://github.com/bbrookhart/AI-Governance-As-Code-Readme)** - Stop managing AI compliance in spreadsheets. This open-source CLI tool bridges the gap between engineering and legal teams by treating **Governance as Code**.
@@ -48,6 +47,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Arena Sec](https://github.com/bbrookhart/ArenaSec)** - Agentic Threat Response Simulator for Safe Red Team vs Blue Team Evaluation
 
 ###  ⚕️🏥 Healthcare Sector Solutions
+- **[Multi-Agent-Federated-Learning-Security-Scanner](https://github.com/bbrookhart/Multi-Agent-Federated-Learning-Security-Scanner-Readme)** - An open-source red-teaming and defensive aggregation framework designed to secure Federated Learning (FL) ecosystems, specifically built for high-stakes environments like distributed clinical research orchestration.
 - **[Healthcare Breach Intelligence Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
 - **[HIPAA Security Risk Assessment Framework](https://github.com/bbrookhart/HIPAA-Security-Risk-Assessment-SRA-Framework)** - A production-grade HIPAA Security Risk Assessment engine aligned to 45 CFR § 164, the HHS OCR Audit Protocol, and NIST Cybersecurity Framework 2.0.
 - **[Clear Path Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** - A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
