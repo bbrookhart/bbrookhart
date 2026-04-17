@@ -32,6 +32,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ## 👨‍💻 Projects
 
 ### 🛡️ GRC & Risk Management
+- **[AIGovOS](https://github.com/bbrookhart/AIGovOS-Readme)** - A portfolio-grade governance engineering platform that demonstrates how AI oversight can be implemented as a real workflow system — not policy text, slideware, or disconnected review checklists.
 - **[ZeroTrust-LLM-Gateway](https://github.com/bbrookhart/ZeroTrust-LLM-Gateway-Readme)** - An open-source, API-level reverse proxy designed to secure Large Language Model (LLM) deployments in highly regulated environments (e.g., Healthcare, Clinical Informatics, Finance).
 - **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
 - **[AI Governance as Code: Automated Compliance Analyzer](https://github.com/bbrookhart/AI-Governance-As-Code-Readme)** - Stop managing AI compliance in spreadsheets. This open-source CLI tool bridges the gap between engineering and legal teams by treating **Governance as Code**.
