@@ -58,6 +58,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Melody Guard](https://github.com/bbrookhart/MelodyGuard)** — a production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
   
 ### 🔴 Red Team & Threat Intelligence
+- **[Agentic Red-Teamer](https://github.com/bbrookhart/agentic-redteam)** - An authorized, canary-based agentic red-teamer for LLM applications and agents, built on LangGraph. It autonomously probes a target for the OWASP LLM Top 10 (2025) and Agentic / ASI Top 10 (2026) vulnerability classes, adapts its payloads when a defense holds, and produces an OWASP-mapped report with attack-success-rate (ASR) metrics.
 - **[Vanguard AI](https://github.com/bbrookhart/Vanguard-Agentic-AI-Security-Validation)** - A real, multi-tenant SaaS platform for authorized security validation of customer-owned assets.
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
