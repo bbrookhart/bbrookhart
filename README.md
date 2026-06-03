@@ -63,6 +63,8 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 - **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
 
 ### 🔵 Blue Team & Defensive AI
+
+- **[AegisAgent — Agent Security & Governance Platform](https://github.com/bbrookhart/Aegis-Agent-Agent-Security-Governance-Platform)** - A control plane that sits between AI agents and the tools/data they touch. Every tool call and every tool result is mediated: evaluated against least-privilege policy, scanned by runtime guardrails, allowed / blocked / escalated to a human, and written to a tamper-evident audit log. 
 - **[multi-agent AI SOC analyst](https://github.com/bbrookhart/multi-agent-AI-SOC-analyst)** - A multi-agent system that triages security alerts end to end — enrich → hunt → decide → respond — built on LangGraph, with a human-in-the-loop approval gate so the agent never executes a destructive containment action on its own. It runs fully offline against a built-in sample queue (no API key), and uses an LLM for analyst narrative/judgement when one is configured.
 - **[Autonomous Multi Agent-SIEM Triage](https://github.com/bbrookhart/Autonomous-Multi-Agent-SIEM-Triage)** - Production-grade multi-agent AI pipeline: Triage → Investigator → Reporter
 - **[Agent Firewall (Adversarial Prompt Injection Detector)](https://github.com/bbrookhart/Agent-Firewall-Military-Grade-Adversarial-Prompt-Injection-Detector)** - A Production-grade, DoD IL5-aligned real-time proxy for LLM/agent security.
