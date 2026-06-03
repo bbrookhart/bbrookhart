@@ -31,6 +31,19 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 
 ## 👨‍💻 Projects
 
+### 🔴 Red Team & Threat Intelligence
+- **[Agentic Red-Teamer](https://github.com/bbrookhart/agentic-redteam)** - An authorized, canary-based agentic red-teamer for LLM applications and agents, built on LangGraph. It autonomously probes a target for the OWASP LLM Top 10 (2025) and Agentic / ASI Top 10 (2026) vulnerability classes, adapts its payloads when a defense holds, and produces an OWASP-mapped report with attack-success-rate (ASR) metrics.
+- **[Vanguard AI](https://github.com/bbrookhart/Vanguard-Agentic-AI-Security-Validation)** - A real, multi-tenant SaaS platform for authorized security validation of customer-owned assets.
+
+### 🔵 Blue Team & Defensive AI
+
+- **[AegisAgent — Agent Security & Governance Platform](https://github.com/bbrookhart/Aegis-Agent-Agent-Security-Governance-Platform)** - A control plane that sits between AI agents and the tools/data they touch. Every tool call and every tool result is mediated: evaluated against least-privilege policy, scanned by runtime guardrails, allowed / blocked / escalated to a human, and written to a tamper-evident audit log. 
+- **[multi-agent AI SOC analyst](https://github.com/bbrookhart/multi-agent-AI-SOC-analyst)** - A multi-agent system that triages security alerts end to end — enrich → hunt → decide → respond — built on LangGraph, with a human-in-the-loop approval gate so the agent never executes a destructive containment action on its own. It runs fully offline against a built-in sample queue (no API key), and uses an LLM for analyst narrative/judgement when one is configured.
+- **[Agent Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
+- **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
+- **[RAG Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
+
+
 ### 🛡️ GRC & Risk Management
 - **[AIGovOS](https://github.com/bbrookhart/AIGovOS-Readme)** - A portfolio-grade governance engineering platform that demonstrates how AI oversight can be implemented as a real workflow system — not policy text, slideware, or disconnected review checklists.
 - **[ZeroTrust-LLM-Gateway](https://github.com/bbrookhart/ZeroTrust-LLM-Gateway-Readme)** - An open-source, API-level reverse proxy designed to secure Large Language Model (LLM) deployments in highly regulated environments (e.g., Healthcare, Clinical Informatics, Finance).
@@ -56,11 +69,7 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ###  ⭐️ 🎭 Entertainment Sector Solutions 
 - **[Likeness Rights OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
 - **[Melody Guard](https://github.com/bbrookhart/MelodyGuard)** — a production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
-  
-### 🔴 Red Team & Threat Intelligence
-- **[Agentic Red-Teamer](https://github.com/bbrookhart/agentic-redteam)** - An authorized, canary-based agentic red-teamer for LLM applications and agents, built on LangGraph. It autonomously probes a target for the OWASP LLM Top 10 (2025) and Agentic / ASI Top 10 (2026) vulnerability classes, adapts its payloads when a defense holds, and produces an OWASP-mapped report with attack-success-rate (ASR) metrics.
-- **[Vanguard AI](https://github.com/bbrookhart/Vanguard-Agentic-AI-Security-Validation)** - A real, multi-tenant SaaS platform for authorized security validation of customer-owned assets.
-- **[Agentic AI Red Team Framework v3.0](https://github.com/bbrookhart/Agentic-AI-Red-Team-Framework-v3.0---Readme)** — A modular, Python-native adversarial security assessment platform built for enterprise environments.
+
 
 ### 🔵 Blue Team & Defensive AI
 
@@ -78,9 +87,6 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 
 ### 🚨 Security Operations & Incident Response
 - **[Security Operations & Incident Response](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)** — A full hands-on security operations and incident response implementation.
-
-### 💪🏼 Future-Proof Skills
-- **[Aether Sentinel](https://github.com/bbrookhart/Aether-Sentinel)** - a secure, tool-using AI platform that helps analysts review information, answer grounded questions, and propose controlled actions with approval gates and full auditability. This is a step-by-step beginner build to learn the essentials.
 
 ---
 
