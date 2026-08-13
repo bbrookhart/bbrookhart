@@ -1,6 +1,6 @@
 # Brian Brookhart
 ### Agentic AI Security Engineer | AI Governance & Red Team | Runtime Defense
-#### Founder @ AetherHorizon · Security must be built in before execution.
+#### Security must be built in before execution.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
 [![Visitors](https://komarev.com/ghpvc/?username=bbrookhart&label=Visitors&color=00A4EF&style=for-the-badge)](#)
@@ -32,55 +32,14 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 ## 👨‍💻 Projects
 
 ### 🔴 Red Team & Threat Intelligence
-- **[Agentic Red-Teamer](https://github.com/bbrookhart/agentic-redteam)** - An authorized, canary-based agentic red-teamer for LLM applications and agents, built on LangGraph. It autonomously probes a target for the OWASP LLM Top 10 (2025) and Agentic / ASI Top 10 (2026) vulnerability classes, adapts its payloads when a defense holds, and produces an OWASP-mapped report with attack-success-rate (ASR) metrics.
-- **[Vanguard AI](https://github.com/bbrookhart/Vanguard-Agentic-AI-Security-Validation)** - A real, multi-tenant SaaS platform for authorized security validation of customer-owned assets.
 
 ### 🔵 Blue Team & Defensive AI
-
-- **[AegisAgent — Agent Security & Governance Platform](https://github.com/bbrookhart/Aegis-Agent-Agent-Security-Governance-Platform)** - A control plane that sits between AI agents and the tools/data they touch. Every tool call and every tool result is mediated: evaluated against least-privilege policy, scanned by runtime guardrails, allowed / blocked / escalated to a human, and written to a tamper-evident audit log. 
-- **[multi-agent AI SOC analyst](https://github.com/bbrookhart/multi-agent-AI-SOC-analyst)** - A multi-agent system that triages security alerts end to end — enrich → hunt → decide → respond — built on LangGraph, with a human-in-the-loop approval gate so the agent never executes a destructive containment action on its own. It runs fully offline against a built-in sample queue (no API key), and uses an LLM for analyst narrative/judgement when one is configured.
-- **[Agent Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
-- **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
-- **[RAG Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
-
 
 ### 🛡️ GRC & Risk Management
-- **[AIGovOS](https://github.com/bbrookhart/AIGovOS-Readme)** - A portfolio-grade governance engineering platform that demonstrates how AI oversight can be implemented as a real workflow system — not policy text, slideware, or disconnected review checklists.
-- **[ZeroTrust-LLM-Gateway](https://github.com/bbrookhart/ZeroTrust-LLM-Gateway-Readme)** - An open-source, API-level reverse proxy designed to secure Large Language Model (LLM) deployments in highly regulated environments (e.g., Healthcare, Clinical Informatics, Finance).
-- **[Agentic AI Security GRC Platform](https://github.com/bbrookhart/Agentic-AI-Security-GRC-Platform)** — a production-grade agentic AI security platform that demonstrates how Claude's tool-use API enables autonomous, multi-step security and GRC workflows. Three specialized agents each run independent tool-use loops — making real decisions about what to investigate next, how to classify findings, and how to synthesize results into actionable intelligence.
-- **[AI Governance as Code: Automated Compliance Analyzer](https://github.com/bbrookhart/AI-Governance-As-Code-Readme)** - Stop managing AI compliance in spreadsheets. This open-source CLI tool bridges the gap between engineering and legal teams by treating **Governance as Code**.
-- **[MLflow Sentinel](https://github.com/bbrookhart/MLflow-Sentinel)** — Production ML Pipeline Observability — From Training to Drift
-- **[Governance Frameworks](https://github.com/bbrookhart/AetherHorizon-Governance-Frameworks-Readme)** — NIST AI RMF (Govern/Map/Measure/Manage), EU AI Act risk-based governance (including GPAI readiness), ISO/IEC 42001 (AI Management System), ISO/IEC 27001 alignment (ISMS integration), SOC 2 trust services alignment (evidence expectations)
-
 
 ###  🛡️ Agentic AI Security Portfolio
-- **[Aegis Zero](https://github.com/bbrookhart/Aegis-Zero)** - Aegis Zero is a zero-trust, threat-informed cyber defense ecosystem designed and engineered using public U.S. government-aligned cybersecurity frameworks and production-grade security architecture principles.
-- **[Sentinel Flow](https://github.com/bbrookhart/SentinelFlow)** - Autonomous SOC Orchestration & Multi-Agent Investigation Platform
-- **[Aether Sentry](https://github.com/bbrookhart/AetherSentry)** - Adversarial Prompt Injection Detector & Agent Firewall
-- **[Continuum Auth](https://github.com/bbrookhart/ContinuumAuth)** - Behavioral Biometrics & Continuous Authentication Agent
-- **[Arena Sec](https://github.com/bbrookhart/ArenaSec)** - Agentic Threat Response Simulator for Safe Red Team vs Blue Team Evaluation
 
 ###  ⚕️🏥 Healthcare Sector Solutions
-- **[Multi-Agent-Federated-Learning-Security-Scanner](https://github.com/bbrookhart/Multi-Agent-Federated-Learning-Security-Scanner-Readme)** - An open-source red-teaming and defensive aggregation framework designed to secure Federated Learning (FL) ecosystems, specifically built for high-stakes environments like distributed clinical research orchestration.
-- **[Healthcare Breach Intelligence Platform](https://github.com/bbrookhart/Healthcare-Breach-Intelligence-Platform)** - An end-to-end healthcare data breach analytics and risk intelligence platform powered by HHS OCR public breach data, machine learning, and interactive visualization.
-- **[HIPAA Security Risk Assessment Framework](https://github.com/bbrookhart/HIPAA-Security-Risk-Assessment-SRA-Framework)** - A production-grade HIPAA Security Risk Assessment engine aligned to 45 CFR § 164, the HHS OCR Audit Protocol, and NIST Cybersecurity Framework 2.0.
-- **[Clear Path Health AI Risk Register](https://github.com/bbrookhart/ClearPath-Health-AI-Risk-Register-Readme)** - A production-inspired, HIPAA-aligned AI governance platform for tracking, assessing, and managing artificial intelligence systems deployed in clinical healthcare environments.
-
-###  ⭐️ 🎭 Entertainment Sector Solutions 
-- **[Likeness Rights OS-Lite](https://github.com/bbrookhart/Likeness-Rights-OS-Lite)** — a prototype governance platform for synthetic voice, face, and likeness permissions in entertainment.
-- **[Melody Guard](https://github.com/bbrookhart/MelodyGuard)** — a production-grade agentic AI system that understands music theory, protects user privacy, and defends against modern threats.
-
-
-### 🔵 Blue Team & Defensive AI
-
-- **[AegisAgent — Agent Security & Governance Platform](https://github.com/bbrookhart/Aegis-Agent-Agent-Security-Governance-Platform)** - A control plane that sits between AI agents and the tools/data they touch. Every tool call and every tool result is mediated: evaluated against least-privilege policy, scanned by runtime guardrails, allowed / blocked / escalated to a human, and written to a tamper-evident audit log. 
-- **[multi-agent AI SOC analyst](https://github.com/bbrookhart/multi-agent-AI-SOC-analyst)** - A multi-agent system that triages security alerts end to end — enrich → hunt → decide → respond — built on LangGraph, with a human-in-the-loop approval gate so the agent never executes a destructive containment action on its own. It runs fully offline against a built-in sample queue (no API key), and uses an LLM for analyst narrative/judgement when one is configured.
-- **[Autonomous Multi Agent-SIEM Triage](https://github.com/bbrookhart/Autonomous-Multi-Agent-SIEM-Triage)** - Production-grade multi-agent AI pipeline: Triage → Investigator → Reporter
-- **[Agent Firewall (Adversarial Prompt Injection Detector)](https://github.com/bbrookhart/Agent-Firewall-Military-Grade-Adversarial-Prompt-Injection-Detector)** - A Production-grade, DoD IL5-aligned real-time proxy for LLM/agent security.
-- **[Agent Scope](https://github.com/bbrookhart/Agent-Scope)** – an execution-aware security monitoring for multi-agent AI systems. Reconstructs cross-agent behavioral trajectories and detects attacks that are invisible to input guardrails — because the chain is the attack surface.
-- **[Cognitive Threat Intelligence Fusion Platform](https://github.com/bbrookhart/CTIFP)** – an ontology-first cyber risk platform that ingests internal security telemetry and external open-source intelligence, fuses them into a unified semantic graph, and surfaces ranked, evidence-backed risk findings for analyst review.
-- **[RAG Firewall](https://github.com/bbrookhart/RAG-Firewall)** — an adversarial-grade defense layer for retrieval-augmented generation systems.
-- **[Agent Guard](https://github.com/bbrookhart/AgentGuard)** — A middleware layer that sits between an LLM agent and its tool suite. A Runtime Authority Enforcement for Agentic AI Systems.
 
 ### ⚠️ Vulnerability Management
 - **[Vulnerability Management Implementation](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)** — A full hands-on vulnerability management implementation.
