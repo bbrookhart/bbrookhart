@@ -1,8 +1,10 @@
-# 🏗️🚧 Under Construction Stay Tuned! 🚧🏗️
+# Brian Brookhart 
 
-# Brian Brookhart
-### Agentic AI Security Engineer | AI Governance & Red Team | Runtime Defense
-#### Security must be built in before execution.
+## Agentic AI Security Engineer
+
+### AI Red Teaming • Runtime Defense • AI Governance • Security Engineering
+
+> **Security must be enforced before execution — not reviewed after the damage is done.**
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
 [![Visitors](https://komarev.com/ghpvc/?username=bbrookhart&label=Visitors&color=00A4EF&style=for-the-badge)](#)
@@ -11,45 +13,148 @@
 
 ---
 
-## About
+I design and evaluate security controls for **AI systems that can reason, call tools, access sensitive data, and take autonomous action**.
 
-**The threat has evolved. Most organizations haven't.**
+My work focuses on the emerging attack surface created by agentic AI: **prompt injection, excessive agency, privilege escalation, unsafe tool use, identity and authorization failures, sensitive-data exposure, and weak runtime controls**.
 
-We are entering an era of agentic AI — systems that don't just respond, they plan, act, and execute autonomously across critical infrastructure, healthcare, and national security environments. The attack surface isn't a server anymore. **It's a decision.** And once an autonomous agent executes, the window to intervene has already closed.
-
-Security cannot be a review after deployment. It must be architecture before execution.
-
-This is the doctrine I built **AetherHorizon** on — operating at the intersection of Security Operations, Ethical AI Governance, and National Readiness. A visibility gap in an AI-powered healthcare system isn't a compliance finding; it's a patient casualty. An unguarded agentic pipeline isn't technical debt — it's a national security vulnerability waiting to be weaponized.
-
-Most organizations deploying AI today aren't facing a governance problem. They are running systems they don't fully understand, carrying risks they haven't modeled, inside threat surfaces they cannot see. I build the frameworks — NIST AI RMF, HIPAA AI compliance, agentic AI red teaming, and runtime authority enforcement — that give organizations full command over what their AI systems are permitted to do, **before they do it.**
-
-Prompt injection. Privilege escalation through agent chains. Autonomous systems with unconstrained tool access. These are not hypothetical threats. They are active. They are here.
-
-**My work on GitHub is a public record of that mission.**
-
-> *The goal is not AI that is powerful. The goal is AI that cannot be turned against the people it was built to serve.*
+This GitHub documents my hands-on work across **AI security, offensive security, defensive operations, vulnerability management, governance, and healthcare security**.
 
 ---
 
-## 👨‍💻 Projects
+## 🎯 Security Focus
 
-### 🔴 Red Team & Threat Intelligence
-
-### 🔵 Blue Team & Defensive AI
-
-### 🛡️ GRC & Risk Management
-
-###  🛡️ Agentic AI Security Portfolio
-
-###  ⚕️🏥 Healthcare Sector Solutions
-
-### ⚠️ Vulnerability Management
-- **[Vulnerability Management Implementation](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)** — A full hands-on vulnerability management implementation.
-
-### 🚨 Security Operations & Incident Response
-- **[Security Operations & Incident Response](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)** — A full hands-on security operations and incident response implementation.
+| Domain                          | Focus                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------ |
+| 🤖 **Agentic AI Security**      | Agent threat modeling, tool-use security, authorization boundaries, runtime controls |
+| 🔴 **AI Red Teaming**           | Prompt injection, privilege escalation, adversarial testing, attack-path analysis    |
+| 🔵 **Defensive Security**       | Detection engineering, incident response, security operations                        |
+| 🛡️ **AI Governance**           | NIST AI RMF, AI risk assessment, control design, governance architecture             |
+| ⚕️ **Healthcare AI Security**   | HIPAA-aligned AI security, sensitive-data protection, high-impact system risk        |
+| ⚠️ **Vulnerability Management** | Discovery, prioritization, remediation, validation, continuous improvement           |
 
 ---
+
+# 🚀 Featured Security Projects
+
+⚠️ Vulnerability Management Implementation
+
+End-to-end vulnerability management lifecycle — from discovery through remediation validation.
+
+[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)
+
+Demonstrates practical experience with vulnerability identification, risk analysis, remediation workflows, and security program operations.
+
+🚨 Security Operations & Incident Response
+
+Hands-on security operations and incident response implementation.
+
+[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)
+
+Demonstrates the operational side of cybersecurity: identifying suspicious activity, investigating security events, and driving incidents toward containment and remediation.
+
+## 🤖 Agentic AI Security Portfolio
+
+### What happens when an AI system can do more than generate text?
+
+Modern AI agents can hold credentials, access APIs, retrieve sensitive information, invoke tools, modify systems, and initiate downstream actions.
+
+That changes the security model.
+
+Traditional application security asks:
+
+> **“Can an attacker compromise the application?”**
+
+Agentic AI security must also ask:
+
+> **“Can an attacker manipulate the model into using legitimate authority for an illegitimate action?”**
+
+My work in this area focuses on security controls around:
+
+* **Prompt injection and indirect prompt injection**
+* **Agent privilege escalation**
+* **Excessive agency and unconstrained tool access**
+* **Identity, authentication, and authorization for agents**
+* **Cross-agent trust and delegation**
+* **Sensitive-data exposure**
+* **Human-in-the-loop control points**
+* **Runtime policy enforcement**
+* **AI-specific threat modeling**
+* **NIST AI RMF-aligned risk governance**
+
+> **The attack surface is no longer only the infrastructure. It is the decision, the authority behind it, and the action that follows.**
+
+---
+
+## 🏗️ Currently Building
+
+My next portfolio projects are focused on translating AI security concepts into **demonstrable architectures, attacks, controls, and testing methodology** across:
+
+**Agentic AI Red Teaming** → adversarial testing of autonomous workflows
+
+**Runtime Authority Enforcement** → controlling what agents are permitted to execute
+
+**AI Threat Modeling** → modeling identities, tools, memory, trust boundaries, and attack paths
+
+**Healthcare AI Security** → security architecture for AI operating around sensitive clinical data
+
+**AI Governance Engineering** → translating frameworks such as NIST AI RMF into technical controls
+
+---
+
+## 🧠 Security Philosophy
+
+AI security cannot stop at policy.
+
+A governance document cannot prevent an autonomous system from executing an unsafe action. Effective AI security requires governance to be translated into **technical boundaries that can be observed, tested, enforced, and audited at runtime**.
+
+My approach connects:
+
+**Governance → Threat Modeling → Architecture → Red Teaming → Runtime Controls → Detection → Continuous Assurance**
+
+The objective is not simply to build more capable AI.
+
+**The objective is to build AI whose authority remains bounded, observable, and defensible.**
+
+---
+
+## 📜 Certifications & Education
+
+| Credential                                            |    Status |
+| ----------------------------------------------------- | --------: |
+| 🎓 **M.S. Cybersecurity & Information Assurance**     | Completed |
+| 🎓 **BBA Business Analytics**                         | Completed |
+| 🏅 **CompTIA PenTest+**                               | Certified |
+| 🏅 **CompTIA CySA+**                                  | Certified |
+| 🏅 **ISC2 Certified in Cybersecurity (CC)**           | Certified |
+| 🏅 **Google Cybersecurity Professional Certificate**  | Certified |
+| 🏅 **Google Data Analytics Professional Certificate** | Certified |
+
+---
+
+## 🔎 Areas of Interest
+
+`Agentic AI Security` `AI Red Teaming` `LLM Security` `Runtime Security` `AI Governance` `NIST AI RMF` `Prompt Injection` `Threat Modeling` `Security Operations` `Incident Response` `Vulnerability Management` `Healthcare Cybersecurity`
+
+---
+
+## 🤝 Connect
+
+I am building this portfolio around one question:
+
+**How do we give autonomous AI systems useful capabilities without giving them uncontrolled authority?**
+
+If you're working on **AI security, agentic systems, AI red teaming, security engineering, AI governance, or high-impact AI deployments**, I'd be glad to connect.
+
+**LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
+
+---
+
+> ### Build systems that are capable.
+>
+> ### Build controls that are stronger.
+
+**Build Standards. Build Strength. Build What Lasts.**
+
 
 ## 🧰 Tools & Technologies
 
@@ -102,27 +207,3 @@ Prompt injection. Privilege escalation through agent chains. Autonomous systems 
 [![](https://img.shields.io/badge/-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](#)
 [![](https://img.shields.io/badge/-PowerShell-2E6DBF?style=for-the-badge&logo=powershell&logoColor=white)](#)
 [![](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](#)
-
----
-
-## 📜 Certifications & Education
-
-| Credential | Status |
-|---|---|
-| 🎓 M.S. Cybersecurity & Information Assurance | Expected 09/2026 |
-| 🎓 BBA Business Analytics | Completed |
-| 🏅 CompTIA PenTest+ | Certified |
-| 🏅 CompTIA CySA+ | Certified |
-| 🏅 ISC2 CC | Certified |
-| 🏅 Google Cybersecurity | Certified |
-| 🏅 Google Data Analytics | Certified |
-
----
-
-## 🤳 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
-
----
-
-*Build Standards. Build Strength. Build What Lasts.*
