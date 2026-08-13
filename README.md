@@ -1,4 +1,4 @@
-🏗️🚧 Under Construction Stay Tuned!
+## 🏗️🚧 Under Construction Stay Tuned! 🚧🏗️
 
 # Brian Brookhart
 ### Agentic AI Security Engineer | AI Governance & Red Team | Runtime Defense
