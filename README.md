@@ -34,25 +34,14 @@ This GitHub documents my hands-on work across **AI security, offensive security,
 
 ---
 
-# 🚀 Featured Security Projects
+# 🤖 Agentic AI Security Portfolio
 
-⚠️ Vulnerability Management Implementation
+meridian-atlas-security
 
-End-to-end vulnerability management lifecycle — from discovery through remediation validation.
+[**View Project →**](https://github.com/bbrookhart/meridian-atlas-security/blob/main/README.md)
 
-[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)
+Atlas is a deliberately vulnerable LLM claims-handling assistant for a fictional insurer. Everything else in this repo attacks it, controls it, measures whether the control held, watches for the control failing silently, and turns all of that into audit evidence.
 
-Demonstrates practical experience with vulnerability identification, risk analysis, remediation workflows, and security program operations.
-
-🚨 Security Operations & Incident Response
-
-Hands-on security operations and incident response implementation.
-
-[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)
-
-Demonstrates the operational side of cybersecurity: identifying suspicious activity, investigating security events, and driving incidents toward containment and remediation.
-
-## 🤖 Agentic AI Security Portfolio
 
 ### What happens when an AI system can do more than generate text?
 
@@ -128,6 +117,24 @@ The objective is not simply to build more capable AI.
 | 🏅 **ISC2 Certified in Cybersecurity (CC)**           | Certified |
 | 🏅 **Google Cybersecurity Professional Certificate**  | Certified |
 | 🏅 **Google Data Analytics Professional Certificate** | Certified |
+
+# 🔐 Cyber Range Projects
+
+⚠️ Vulnerability Management Implementation
+
+End-to-end vulnerability management lifecycle — from discovery through remediation validation.
+
+[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)
+
+Demonstrates practical experience with vulnerability identification, risk analysis, remediation workflows, and security program operations.
+
+🚨 Security Operations & Incident Response
+
+Hands-on security operations and incident response implementation.
+
+[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)
+
+Demonstrates the operational side of cybersecurity: identifying suspicious activity, investigating security events, and driving incidents toward containment and remediation.
 
 ---
 
