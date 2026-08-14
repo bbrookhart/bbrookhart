@@ -46,7 +46,7 @@ A controllable, auditable multi-agent system that triages security alerts using 
 
 🏥 Northstar Medical AI Deployment
 
-[**View Project →**](https://github.com/bbrookhart/northstar-medical-ai-deployment/blob/main/README.md))
+[**View Project →**](https://github.com/bbrookhart/northstar-medical-ai-deployment/blob/main/README.md)
 
 ---
 
