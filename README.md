@@ -48,6 +48,8 @@ A controllable, auditable multi-agent system that triages security alerts using 
 
 [**View Project →**](https://github.com/bbrookhart/northstar-medical-ai-deployment/blob/main/README.md)
 
+An end-to-end simulation of safe and secure adoption of an internal, constrained agentic AI capability at the fictional healthcare enterprise Northstar Medical.
+
 ---
 
 🔐 Meridian Atlas Security
@@ -56,6 +58,7 @@ A controllable, auditable multi-agent system that triages security alerts using 
 
 Atlas is a deliberately vulnerable LLM claims-handling assistant for a fictional insurer. Everything else in this repo attacks it, controls it, measures whether the control held, watches for the control failing silently, and turns all of that into audit evidence.
 
+---
 
 ### What happens when an AI system can do more than generate text?
 
