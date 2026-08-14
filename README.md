@@ -38,7 +38,7 @@ This GitHub documents my hands-on work across **AI security, offensive security,
 
 🛡️ A Security-First Multi-Agentic SOC 
 
-[**View Project →**](https://github.com/bbrookhart/meridian-atlas-security/blob/main/README.md)
+[**View Project →**](https://github.com/bbrookhart/secure-agentic-soc/blob/main/README.md)
 
 A controllable, auditable multi-agent system that triages security alerts using local LLMs — built so that a fully compromised model still cannot skip triage, bypass human approval, or reach a capability it was never granted.
 
