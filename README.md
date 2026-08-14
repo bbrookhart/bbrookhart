@@ -42,6 +42,14 @@ This GitHub documents my hands-on work across **AI security, offensive security,
 
 A controllable, auditable multi-agent system that triages security alerts using local LLMs — built so that a fully compromised model still cannot skip triage, bypass human approval, or reach a capability it was never granted.
 
+---
+
+🏥 Northstar Medical AI Deployment
+
+[**View Project →**]([**View Project →**](https://github.com/bbrookhart/northstar-medical-ai-deployment/blob/main/README.md))
+
+---
+
 🔐 Meridian Atlas Security
 
 [**View Project →**](https://github.com/bbrookhart/meridian-atlas-security/blob/main/README.md)
@@ -81,12 +89,6 @@ My work in this area focuses on security controls around:
 ---
 
 ## 🏗️ Currently Building
-
-🏥 Northstar Medical AI Deployment
-
-An evidence-gated simulation of safe and secure internal agentic AI adoption at a fictional healthcare enterprise. Synthetic data only.
-
----
 
 My next portfolio projects are focused on translating AI security concepts into **demonstrable architectures, attacks, controls, and testing methodology** across:
 
