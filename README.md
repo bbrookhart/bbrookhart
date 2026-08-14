@@ -36,7 +36,7 @@ This GitHub documents my hands-on work across **AI security, offensive security,
 
 # 🤖 Agentic AI Security Portfolio
 
-A Security-first Multi-agentic SOC 
+A Security-First Multi-Agentic SOC 
 
 [**View Project →**](https://github.com/bbrookhart/meridian-atlas-security/blob/main/README.md)
 
