@@ -44,6 +44,14 @@ A controllable, auditable multi-agent system that triages security alerts using 
 
 ---
 
+💪 VIGIL
+
+[**View Project →**](https://github.com/bbrookhart/VIGIL/blob/main/README.md)
+
+Runtime security for autonomous AI agents. Stops an AI agent from doing something dangerous — before it happens, not after.
+
+---
+
 🏥 Northstar Medical AI Deployment
 
 [**View Project →**](https://github.com/bbrookhart/northstar-medical-ai-deployment/blob/main/README.md)
