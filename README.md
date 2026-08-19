@@ -135,6 +135,7 @@ The objective is not simply to build more capable AI.
 
 | Credential                                            |    Status |
 | ----------------------------------------------------- | --------: |
+| 🎓 **PhD Information Technology**                     | In Process| 
 | 🎓 **M.S. Cybersecurity & Information Assurance**     | Completed |
 | 🎓 **BBA Business Analytics**                         | Completed |
 | 🏅 **CompTIA PenTest+**                               | Certified |
