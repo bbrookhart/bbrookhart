@@ -36,7 +36,7 @@ This GitHub documents my hands-on work across **AI security, offensive security,
 
 # 🤖 Agentic AI Security Portfolio
 
-🛡️ A Security-First Multi-Agentic SOC 
+🛡️ **A Security-First Multi-Agentic SOC** 
 
 [**View Project →**](https://github.com/bbrookhart/secure-agentic-soc/blob/main/README.md)
 
@@ -44,7 +44,7 @@ A controllable, auditable multi-agent system that triages security alerts using 
 
 ---
 
-💪 VIGIL
+💪 **VIGIL**
 
 [**View Project →**](https://github.com/bbrookhart/VIGIL/blob/main/README.md)
 
@@ -52,7 +52,7 @@ Runtime security for autonomous AI agents. Stops an AI agent from doing somethin
 
 ---
 
-🏥 Northstar Medical AI Deployment
+🏥 **Northstar Medical AI Deployment**
 
 [**View Project →**](https://github.com/bbrookhart/northstar-medical-ai-deployment/blob/main/README.md)
 
@@ -60,7 +60,7 @@ An end-to-end simulation of safe and secure adoption of an internal, constrained
 
 ---
 
-🔐 Meridian Atlas Security
+🔐 **Meridian Atlas Security**
 
 [**View Project →**](https://github.com/bbrookhart/meridian-atlas-security/blob/main/README.md)
 
