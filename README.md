@@ -34,6 +34,26 @@ This GitHub documents my hands-on work across **AI security, offensive security,
 
 ---
 
+# ⚡️ National Security & Advanced AI Security Research
+
+Research focused on securing advanced AI and cyber-physical systems where failure can create real operational consequences. Current work spans critical-infrastructure resilience, autonomous-agent assurance, nation-state threat detection, post-quantum security, and industrial software integrity.
+
+⚫ BLACKSTART
+
+[**View Project →**](https://github.com/bbrookhart/blackstart-cyber-range/blob/main/README.md)
+
+Consequence-Driven Cyber-Physical Resilience Range
+
+A cyber-physical research range for studying whether critical infrastructure can remain safe, observable, and operational after sophisticated digital compromise.
+
+BLACKSTART starts from a harder assumption than traditional perimeter security: the adversary may already be inside. It models the complete chain from cyber event → control influence → physical-process deviation → mission consequence, then measures whether engineered controls can prevent unacceptable outcomes.
+
+Research areas: OT/ICS security • cyber-physical systems • consequence-driven engineering • safety invariants • critical infrastructure • resilient control • NIST SP 800-82 • MITRE ATT&CK for ICS
+
+Assume compromise. Preserve the mission.
+
+---
+
 # 🤖 Agentic AI Security Portfolio
 
 🛡️ **A Security-First Multi-Agentic SOC** 
