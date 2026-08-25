@@ -38,7 +38,7 @@ This GitHub documents my hands-on work across **AI security, offensive security,
 
 Research focused on securing advanced AI and cyber-physical systems where failure can create real operational consequences. Current work spans critical-infrastructure resilience, autonomous-agent assurance, nation-state threat detection, post-quantum security, and industrial software integrity.
 
-⚫ BLACKSTART
+⚫ **BLACKSTART**
 
 [**View Project →**](https://github.com/bbrookhart/blackstart-cyber-range/blob/main/README.md)
 
