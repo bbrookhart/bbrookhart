@@ -54,6 +54,24 @@ Assume compromise. Preserve the mission.
 
 ---
 
+🐺 **CERBERUS NULL**
+
+Assured Autonomous Cyber Defense
+
+[**View Project →**](https://github.com/bbrookhart/cerberus-null/blob/main/README.md)
+
+A security architecture for deploying AI agents in high-consequence environments without granting probabilistic models unrestricted authority.
+
+CERBERUS NULL separates AI reasoning from deterministic authorization. Agents may investigate, reason, and recommend actions, while an independent policy layer determines what they are actually permitted to execute.
+
+The research focuses on preventing prompt injection, excessive agency, compromised tools, malicious retrieved content, and model failures from crossing critical safety boundaries.
+
+Research areas: agentic AI security • deterministic policy enforcement • capability security • prompt injection • tool authorization • AI assurance • formal methods
+
+Autonomy ends where consequence begins.
+
+---
+
 # 🤖 Agentic AI Security Portfolio
 
 🛡️ **A Security-First Multi-Agentic SOC** 
