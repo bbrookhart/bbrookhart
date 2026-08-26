@@ -90,7 +90,7 @@ Find the access intended for a conflict that has not started yet.
 
 ---
 
-⚛️ HARVEST//ZERO
+⚛️ **HARVEST//ZERO**
 
 Post-Quantum Critical-Infrastructure Migration Laboratory
 
