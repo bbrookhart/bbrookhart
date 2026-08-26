@@ -106,7 +106,7 @@ Inventory today what must still be secure tomorrow.
 
 ---
 
-⛓️ IRONVEIL
+⛓️ **IRONVEIL**
 
 Industrial Software & Firmware Assurance
 
