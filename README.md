@@ -72,6 +72,24 @@ Autonomy ends where consequence begins.
 
 ---
 
+🕳️ **DEADFALL**
+
+Strategic Cyber Pre-Positioning Detection
+
+[**View Project →**](https://github.com/bbrookhart/deadfall/blob/main/README.md)
+
+A threat-informed detection and campaign-reconstruction platform designed around one of the hardest national-security cyber problems: identifying adversaries establishing persistent access today for potential disruption during a future crisis.
+
+DEADFALL correlates identity, endpoint, network, privilege, asset-criticality, and OT-access telemetry into temporal attack graphs rather than treating alerts as isolated events.
+
+The objective is to detect strategic access before activation.
+
+Research areas: nation-state cyber operations • living-off-the-land • critical infrastructure • behavioral detection • graph analytics • ATT&CK • threat hunting • campaign reconstruction
+
+Find the access intended for a conflict that has not started yet.
+
+---
+
 # 🤖 Agentic AI Security Portfolio
 
 🛡️ **A Security-First Multi-Agentic SOC** 
