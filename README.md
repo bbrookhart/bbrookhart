@@ -106,6 +106,22 @@ Inventory today what must still be secure tomorrow.
 
 ---
 
+⛓️ IRONVEIL
+
+Industrial Software & Firmware Assurance
+
+[**View Project →**](https://github.com/bbrookhart/ironveil/blob/main/README.md)
+
+An end-to-end industrial trust-chain research platform for establishing where software came from, how it was built, what it contains, whether it was authorized, and whether the deployed artifact is the one that was approved.
+
+IRONVEIL combines source integrity, SBOMs, build provenance, artifact signing, deployment policy, and runtime verification into a measurable software-supply-chain assurance architecture.
+
+Research areas: software supply chain • firmware security • SBOM • provenance • SLSA • artifact signing • industrial systems • secure CI/CD
+
+Nothing executes without a verifiable history.
+
+---
+
 # 🤖 Agentic AI Security Portfolio
 
 🛡️ **A Security-First Multi-Agentic SOC** 
