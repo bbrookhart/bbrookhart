@@ -90,6 +90,22 @@ Find the access intended for a conflict that has not started yet.
 
 ---
 
+⚛️ HARVEST//ZERO
+
+Post-Quantum Critical-Infrastructure Migration Laboratory
+
+[**View Project →**](https://github.com/bbrookhart/harvest-zero/blob/main/README.md)
+
+A cryptographic discovery, risk-prioritization, and migration platform for long-lived infrastructure facing post-quantum transition.
+
+HARVEST//ZERO inventories quantum-vulnerable cryptography, maps cryptographic dependencies, evaluates harvest-now-decrypt-later exposure, benchmarks post-quantum algorithms, and develops migration strategies centered on crypto agility.
+
+Research areas: post-quantum cryptography • ML-KEM • ML-DSA • cryptographic discovery • crypto agility • PKI • embedded systems • infrastructure modernization
+
+Inventory today what must still be secure tomorrow.
+
+---
+
 # 🤖 Agentic AI Security Portfolio
 
 🛡️ **A Security-First Multi-Agentic SOC** 
