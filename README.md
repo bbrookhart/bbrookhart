@@ -72,6 +72,54 @@ Autonomy ends where consequence begins.
 
 ---
 
+🌑 **NIGHTGLASS**
+
+Persistent-Memory Security for Long-Horizon AI Agents
+
+[**View Project →**](https://github.com/bbrookhart/nightglass/blob/main/README.md)
+
+An open security benchmark for persistent, tool-using AI agents that tests whether malicious instructions encountered in untrusted enterprise content can survive in memory, activate in a later session, and produce an unauthorized side effect.
+
+NIGHTGLASS makes cross-session compromise measurable through paired scenarios, provenance-preserving memory events, deterministic side-effect ledgers, runtime controls, and reproducible evidence.
+
+Research areas: agent memory security • indirect prompt injection • cross-session attacks • persistent compromise • provenance • runtime authorization • AI red teaming • safety–utility evaluation
+
+See what persists after the prompt is gone.
+
+---
+
+🪞 **FALSEPROXY**
+
+Agentic Supply-Chain & Delegation Security
+
+[**View Project →**](https://github.com/bbrookhart/falseproxy/blob/main/README.md)
+
+An adversarial benchmark and enforcement gateway for identity, provenance, authorization, and delegated authority across MCP and A2A agent ecosystems.
+
+FALSEPROXY tests whether agents can be induced to select malicious components, accept substituted versions, delegate to the wrong audience, amplify scope, ignore revocation, or execute unapproved side effects—and which controls stop them without breaking useful work.
+
+Research areas: agentic supply-chain security • MCP • A2A • delegation • identity • provenance • authorization • tool shadowing • revocation • runtime enforcement
+
+Trust the chain, not the claim.
+
+---
+
+👻 **GHOSTLEDGER**
+
+Stealthy Agent Sabotage Evaluation
+
+[**View Project →**](https://github.com/bbrookhart/ghostledger/blob/main/README.md)
+
+A state-grounded benchmark for measuring whether an AI agent can complete its visible task while quietly degrading the security, safety, reliability, or auditability of the underlying mission.
+
+GHOSTLEDGER evaluates covert sabotage and oversight together using matched benign controls, protected mission-integrity oracles, downstream-effect checks, layered defenses, deterministic replay, and tamper-evident evidence.
+
+Research areas: agent sabotage • hidden misalignment evaluation • monitorability • mission integrity • long-horizon agents • state-grounded evaluation • AI control • reproducible security research
+
+The task passed. The mission failed.
+
+---
+
 🕳️ **DEADFALL**
 
 Strategic Cyber Pre-Positioning Detection
