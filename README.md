@@ -1,378 +1,237 @@
-# Brian Brookhart 
+<div align="center">
 
-## Agentic AI Security Engineer
+# Brian Brookhart
 
-### AI Red Teaming • Runtime Defense • AI Governance • Security Engineering
+### AI Security Researcher · Frontier Model & Agentic AI Security · Critical Infrastructure Resilience
 
-> **Security must be enforced before execution — not reviewed after the damage is done.**
+**Researching secure and resilient AI for high-consequence cyber and cyber-physical systems.**
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
-[![Visitors](https://komarev.com/ghpvc/?username=bbrookhart&label=Visitors&color=00A4EF&style=for-the-badge)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
 
-![github contribution grid snake animation](https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg)
+`AI Security` · `Agentic Systems` · `Frontier AI TEVV` · `Cyber-Physical Systems` · `National Security`
 
----
-
-I design and evaluate security controls for **AI systems that can reason, call tools, access sensitive data, and take autonomous action**.
-
-My work focuses on the emerging attack surface created by agentic AI: **prompt injection, excessive agency, privilege escalation, unsafe tool use, identity and authorization failures, sensitive-data exposure, and weak runtime controls**.
-
-This GitHub documents my hands-on work across **AI security, offensive security, defensive operations, vulnerability management, governance, and healthcare security**.
+</div>
 
 ---
 
-## 🎯 Security Focus
+> ### Research Thesis
+> **As AI moves from generating information to taking action, security becomes a problem of authority, capability, consequence, and assurance.**
 
-| Domain                          | Focus                                                                                |
-| ------------------------------- | ------------------------------------------------------------------------------------ |
-| 🤖 **Agentic AI Security**      | Agent threat modeling, tool-use security, authorization boundaries, runtime controls |
-| 🔴 **AI Red Teaming**           | Prompt injection, privilege escalation, adversarial testing, attack-path analysis    |
-| 🔵 **Defensive Security**       | Detection engineering, incident response, security operations                        |
-| 🛡️ **AI Governance**           | NIST AI RMF, AI risk assessment, control design, governance architecture             |
-| ⚕️ **Healthcare AI Security**   | HIPAA-aligned AI security, sensitive-data protection, high-impact system risk        |
-| ⚠️ **Vulnerability Management** | Discovery, prioritization, remediation, validation, continuous improvement           |
+I build and evaluate security architectures for **advanced AI and cyber-physical systems operating in high-consequence environments**. My work focuses on a central question:
+
+> **How do we make increasingly capable AI systems useful without allowing model failure, adversarial influence, or digital compromise to become mission failure?**
+
+The portfolio is organized as a research program—not a collection of demos. Each flagship project targets a distinct assurance problem and is being developed around **explicit threat models, reproducible experiments, measurable security properties, evidence, and technical review**.
 
 ---
 
-# ⚡️ National Security & Advanced AI Security Research
+## DARKCURRENT // Research Program
 
-Research focused on securing advanced AI and cyber-physical systems where failure can create real operational consequences. Current work spans critical-infrastructure resilience, autonomous-agent assurance, nation-state threat detection, post-quantum security, and industrial software integrity.
+| Frontier AI & Autonomous Systems | Critical Infrastructure & Cyber Operations | Trust Infrastructure |
+|---|---|---|
+| **[CRUCIBLE](https://github.com/bbrookhart/crucible-ai)** — Frontier AI cyber capability TEVV | **[BLACKSTART](https://github.com/bbrookhart/blackstart-cyber-range)** — Cyber-physical consequence containment | **[HARVEST//ZERO](https://github.com/bbrookhart/harvest-zero)** — Post-quantum migration |
+| **[CERBERUS NULL](https://github.com/bbrookhart/cerberus-null)** — Formally constrained agent authority | **[DEADFALL](https://github.com/bbrookhart/deadfall)** — Strategic cyber pre-positioning detection | **[IRONVEIL](https://github.com/bbrookhart/ironveil)** — Software & firmware provenance assurance |
 
-⚫ **BLACKSTART**
-
-[**View Project →**](https://github.com/bbrookhart/blackstart-cyber-range/blob/main/README.md)
-
-Consequence-Driven Cyber-Physical Resilience Range
-
-A cyber-physical research range for studying whether critical infrastructure can remain safe, observable, and operational after sophisticated digital compromise.
-
-BLACKSTART starts from a harder assumption than traditional perimeter security: the adversary may already be inside. It models the complete chain from cyber event → control influence → physical-process deviation → mission consequence, then measures whether engineered controls can prevent unacceptable outcomes.
-
-Research areas: OT/ICS security • cyber-physical systems • consequence-driven engineering • safety invariants • critical infrastructure • resilient control • NIST SP 800-82 • MITRE ATT&CK for ICS
-
-Assume compromise. Preserve the mission.
-
----
-
-🐺 **CERBERUS NULL**
-
-Assured Autonomous Cyber Defense
-
-[**View Project →**](https://github.com/bbrookhart/cerberus-null/blob/main/README.md)
-
-A security architecture for deploying AI agents in high-consequence environments without granting probabilistic models unrestricted authority.
-
-CERBERUS NULL separates AI reasoning from deterministic authorization. Agents may investigate, reason, and recommend actions, while an independent policy layer determines what they are actually permitted to execute.
-
-The research focuses on preventing prompt injection, excessive agency, compromised tools, malicious retrieved content, and model failures from crossing critical safety boundaries.
-
-Research areas: agentic AI security • deterministic policy enforcement • capability security • prompt injection • tool authorization • AI assurance • formal methods
-
-Autonomy ends where consequence begins.
+```text
+                     FRONTIER AI
+                         │
+                ┌────────┴────────┐
+                │                 │
+            CRUCIBLE        CERBERUS NULL
+          capability TEVV    authority control
+                │                 │
+                └────────┬────────┘
+                         │
+                HIGH-CONSEQUENCE SYSTEMS
+                         │
+              ┌──────────┴──────────┐
+              │                     │
+          BLACKSTART             DEADFALL
+       physical resilience    strategic access
+              │                     │
+              └──────────┬──────────┘
+                         │
+                TRUST INFRASTRUCTURE
+                         │
+              ┌──────────┴──────────┐
+              │                     │
+       HARVEST//ZERO             IRONVEIL
+        crypto agility        software provenance
+```
 
 ---
 
-🌑 **NIGHTGLASS**
+# Flagship Research
 
-Persistent-Memory Security for Long-Horizon AI Agents
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🔥 <a href="https://github.com/bbrookhart/crucible-ai">CRUCIBLE</a></h3>
+<strong>Frontier AI Cyber Capability &amp; Defensive-Uplift TEVV</strong><br><br>
+<em>In development</em><br><br>
+A high-fidelity evaluation range for measuring what advanced AI systems can actually accomplish in cybersecurity—and whether those measurements can be trusted.<br><br>
+CRUCIBLE separates <strong>model capability, agent capability, and human+AI uplift</strong>, with bounded tool access, reproducible sandboxes, explicit resource budgets, failure analysis, and sequestered evaluation designed to reduce benchmark contamination.<br><br>
+<code>Frontier AI</code> <code>TEVV</code> <code>Cyber Capability</code> <code>Agent Evaluation</code> <code>Benchmark Integrity</code><br><br>
+<strong>Measure capability before capability becomes consequence.</strong>
+</td>
+<td width="50%" valign="top">
+<h3>🐺 <a href="https://github.com/bbrookhart/cerberus-null">CERBERUS NULL</a></h3>
+<strong>Formally Constrained Agentic Cyber Defense</strong><br><br>
+An assured-autonomy architecture built around one hard boundary: <strong>model intelligence does not equal system authority.</strong><br><br>
+AI agents may reason, plan, and propose actions, while an independent deterministic control plane evaluates identity, mission scope, capabilities, policy, provenance, human approval, and safety before consequential execution.<br><br>
+<code>Agentic AI Security</code> <code>Capability Security</code> <code>Formal Methods</code> <code>Policy Enforcement</code><br><br>
+<strong>Reason probabilistically. Act deterministically.</strong>
+</td>
+</tr>
 
-[**View Project →**](https://github.com/bbrookhart/nightglass/blob/main/README.md)
+<tr>
+<td width="50%" valign="top">
+<h3>⚫ <a href="https://github.com/bbrookhart/blackstart-cyber-range">BLACKSTART</a></h3>
+<strong>Consequence-Driven Cyber-Physical Resilience</strong><br><br>
+A cyber-physical research range that assumes the attacker may already have digital access and asks the harder question: <strong>Can engineered controls prevent compromise from becoming an unacceptable physical consequence?</strong><br><br>
+BLACKSTART connects cyber events to control state, physical-process behavior, explicit safety invariants, and mission consequence.<br><br>
+<code>OT/ICS</code> <code>Cyber-Physical Systems</code> <code>Critical Infrastructure</code> <code>Safety Invariants</code><br><br>
+<strong>Assume compromise. Preserve the mission.</strong>
+</td>
+<td width="50%" valign="top">
+<h3>🕳️ <a href="https://github.com/bbrookhart/deadfall">DEADFALL</a></h3>
+<strong>Strategic Cyber Pre-Positioning Detection</strong><br><br>
+A threat-informed campaign-reconstruction platform for detecting one of the hardest national-security cyber problems: <strong>persistent access established today for possible disruption during a future crisis.</strong><br><br>
+DEADFALL correlates identity, endpoint, network, privilege, infrastructure, and OT-proximity telemetry into temporal graphs that surface strategic access before activation.<br><br>
+<code>Nation-State Cyber</code> <code>LOTL</code> <code>Threat Hunting</code> <code>Graph Analytics</code> <code>OT Security</code><br><br>
+<strong>Find the access intended for a conflict that has not started yet.</strong>
+</td>
+</tr>
 
-An open security benchmark for persistent, tool-using AI agents that tests whether malicious instructions encountered in untrusted enterprise content can survive in memory, activate in a later session, and produce an unauthorized side effect.
-
-NIGHTGLASS makes cross-session compromise measurable through paired scenarios, provenance-preserving memory events, deterministic side-effect ledgers, runtime controls, and reproducible evidence.
-
-Research areas: agent memory security • indirect prompt injection • cross-session attacks • persistent compromise • provenance • runtime authorization • AI red teaming • safety–utility evaluation
-
-See what persists after the prompt is gone.
-
----
-
-🪞 **FALSEPROXY**
-
-Agentic Supply-Chain & Delegation Security
-
-[**View Project →**](https://github.com/bbrookhart/falseproxy/blob/main/README.md)
-
-An adversarial benchmark and enforcement gateway for identity, provenance, authorization, and delegated authority across MCP and A2A agent ecosystems.
-
-FALSEPROXY tests whether agents can be induced to select malicious components, accept substituted versions, delegate to the wrong audience, amplify scope, ignore revocation, or execute unapproved side effects—and which controls stop them without breaking useful work.
-
-Research areas: agentic supply-chain security • MCP • A2A • delegation • identity • provenance • authorization • tool shadowing • revocation • runtime enforcement
-
-Trust the chain, not the claim.
-
----
-
-👻 **GHOSTLEDGER**
-
-Stealthy Agent Sabotage Evaluation
-
-[**View Project →**](https://github.com/bbrookhart/ghostledger/blob/main/README.md)
-
-A state-grounded benchmark for measuring whether an AI agent can complete its visible task while quietly degrading the security, safety, reliability, or auditability of the underlying mission.
-
-GHOSTLEDGER evaluates covert sabotage and oversight together using matched benign controls, protected mission-integrity oracles, downstream-effect checks, layered defenses, deterministic replay, and tamper-evident evidence.
-
-Research areas: agent sabotage • hidden misalignment evaluation • monitorability • mission integrity • long-horizon agents • state-grounded evaluation • AI control • reproducible security research
-
-The task passed. The mission failed.
-
----
-
-🕳️ **DEADFALL**
-
-Strategic Cyber Pre-Positioning Detection
-
-[**View Project →**](https://github.com/bbrookhart/deadfall/blob/main/README.md)
-
-A threat-informed detection and campaign-reconstruction platform designed around one of the hardest national-security cyber problems: identifying adversaries establishing persistent access today for potential disruption during a future crisis.
-
-DEADFALL correlates identity, endpoint, network, privilege, asset-criticality, and OT-access telemetry into temporal attack graphs rather than treating alerts as isolated events.
-
-The objective is to detect strategic access before activation.
-
-Research areas: nation-state cyber operations • living-off-the-land • critical infrastructure • behavioral detection • graph analytics • ATT&CK • threat hunting • campaign reconstruction
-
-Find the access intended for a conflict that has not started yet.
+<tr>
+<td width="50%" valign="top">
+<h3>⚛️ <a href="https://github.com/bbrookhart/harvest-zero">HARVEST//ZERO</a></h3>
+<strong>Post-Quantum Critical-Infrastructure Migration</strong><br><br>
+A cryptographic discovery and migration laboratory for long-lived infrastructure facing the transition to post-quantum cryptography.<br><br>
+HARVEST//ZERO maps cryptographic dependencies, evaluates harvest-now-decrypt-later exposure, prioritizes migration by mission and system lifetime, benchmarks PQC, and measures <strong>crypto agility</strong> rather than treating migration as an algorithm swap.<br><br>
+<code>PQC</code> <code>ML-KEM</code> <code>ML-DSA</code> <code>Crypto Agility</code> <code>PKI</code><br><br>
+<strong>Inventory today what must still be secure tomorrow.</strong>
+</td>
+<td width="50%" valign="top">
+<h3>⛓️ <a href="https://github.com/bbrookhart/ironveil">IRONVEIL</a></h3>
+<strong>Industrial Software &amp; Firmware Assurance</strong><br><br>
+An end-to-end assurance platform for proving the history of software and firmware from authorized source through build, provenance, composition, signing, release, deployment, and installed state.<br><br>
+IRONVEIL combines source integrity, SBOM/VEX, build provenance, identity-bound signing, release policy, secure updates, and target verification into an evidence-backed trust chain.<br><br>
+<code>Software Supply Chain</code> <code>Firmware Security</code> <code>SLSA</code> <code>SBOM</code> <code>Provenance</code><br><br>
+<strong>Nothing executes without a verifiable history.</strong>
+</td>
+</tr>
+</table>
 
 ---
 
-⚛️ **HARVEST//ZERO**
+## Research Method
 
-Post-Quantum Critical-Infrastructure Migration Laboratory
+My projects are designed around the same engineering discipline:
 
-[**View Project →**](https://github.com/bbrookhart/harvest-zero/blob/main/README.md)
+```text
+THREAT MODEL
+    ↓
+SECURITY PROPERTY
+    ↓
+SYSTEM / CONTROL
+    ↓
+ADVERSARIAL EVALUATION
+    ↓
+MEASUREMENT
+    ↓
+EVIDENCE
+    ↓
+REPRODUCTION
+    ↓
+DEFENSIBLE CLAIM
+```
 
-A cryptographic discovery, risk-prioritization, and migration platform for long-lived infrastructure facing post-quantum transition.
-
-HARVEST//ZERO inventories quantum-vulnerable cryptography, maps cryptographic dependencies, evaluates harvest-now-decrypt-later exposure, benchmarks post-quantum algorithms, and develops migration strategies centered on crypto agility.
-
-Research areas: post-quantum cryptography • ML-KEM • ML-DSA • cryptographic discovery • crypto agility • PKI • embedded systems • infrastructure modernization
-
-Inventory today what must still be secure tomorrow.
-
----
-
-⛓️ **IRONVEIL**
-
-Industrial Software & Firmware Assurance
-
-[**View Project →**](https://github.com/bbrookhart/ironveil/blob/main/README.md)
-
-An end-to-end industrial trust-chain research platform for establishing where software came from, how it was built, what it contains, whether it was authorized, and whether the deployed artifact is the one that was approved.
-
-IRONVEIL combines source integrity, SBOMs, build provenance, artifact signing, deployment policy, and runtime verification into a measurable software-supply-chain assurance architecture.
-
-Research areas: software supply chain • firmware security • SBOM • provenance • SLSA • artifact signing • industrial systems • secure CI/CD
-
-Nothing executes without a verifiable history.
+The goal is not to produce another polished security demo. The goal is to produce **systems and experiments that can be challenged, measured, reproduced, and improved**.
 
 ---
 
-# 🤖 Agentic AI Security Portfolio
+## Additional AI Security Research
 
-🛡️ **A Security-First Multi-Agentic SOC** 
+<details>
+<summary><b>Expand selected agentic-AI security research</b></summary>
+<br>
 
-[**View Project →**](https://github.com/bbrookhart/secure-agentic-soc/blob/main/README.md)
+| Project | Research problem |
+|---|---|
+| **[NIGHTGLASS](https://github.com/bbrookhart/nightglass)** | Persistent-memory security for long-horizon agents; measures whether malicious instructions can survive across sessions and later produce unauthorized effects. |
+| **[FALSEPROXY](https://github.com/bbrookhart/falseproxy)** | Identity, provenance, authorization, delegation, revocation, and component trust across MCP/A2A-style agent ecosystems. |
+| **[GHOSTLEDGER](https://github.com/bbrookhart/ghostledger)** | State-grounded evaluation of stealthy agent sabotage where the visible task succeeds while mission integrity quietly degrades. |
+| **[VIGIL](https://github.com/bbrookhart/VIGIL)** | Runtime prevention for dangerous autonomous-agent actions before execution. |
+| **[Security-First Multi-Agentic SOC](https://github.com/bbrookhart/secure-agentic-soc)** | Controllable local-LLM SOC architecture with enforced triage, bounded capabilities, and human approval. |
 
-A controllable, auditable multi-agent system that triages security alerts using local LLMs — built so that a fully compromised model still cannot skip triage, bypass human approval, or reach a capability it was never granted.
-
----
-
-💪 **VIGIL**
-
-[**View Project →**](https://github.com/bbrookhart/VIGIL/blob/main/README.md)
-
-Runtime security for autonomous AI agents. Stops an AI agent from doing something dangerous — before it happens, not after.
-
----
-
-🏥 **Northstar Medical AI Deployment**
-
-[**View Project →**](https://github.com/bbrookhart/northstar-medical-ai-deployment/blob/main/README.md)
-
-An end-to-end simulation of safe and secure adoption of an internal, constrained agentic AI capability at the fictional healthcare enterprise Northstar Medical.
+</details>
 
 ---
 
-🔐 **Meridian Atlas Security**
+## Applied AI Security
 
-[**View Project →**](https://github.com/bbrookhart/meridian-atlas-security/blob/main/README.md)
+<details>
+<summary><b>Expand applied security and governance builds</b></summary>
+<br>
 
-Atlas is a deliberately vulnerable LLM claims-handling assistant for a fictional insurer. Everything else in this repo attacks it, controls it, measures whether the control held, watches for the control failing silently, and turns all of that into audit evidence.
+| Project | Focus |
+|---|---|
+| **[Northstar Medical AI Deployment](https://github.com/bbrookhart/northstar-medical-ai-deployment)** | End-to-end secure adoption of a constrained internal agentic-AI capability in a fictional healthcare enterprise. |
+| **[Meridian Atlas Security](https://github.com/bbrookhart/meridian-atlas-security)** | Adversarial testing, control validation, silent-failure detection, and audit evidence around a deliberately vulnerable LLM application. |
+
+</details>
 
 ---
 
-### What happens when an AI system can do more than generate text?
+## Research Focus
 
-Modern AI agents can hold credentials, access APIs, retrieve sensitive information, invoke tools, modify systems, and initiate downstream actions.
+`AI Security` · `Frontier Model Evaluation` · `Agentic AI Security` · `AI Safety & Control`  
+`Cyber-Physical Systems` · `Critical Infrastructure` · `OT/ICS Security` · `Nation-State Cyber Operations`  
+`Post-Quantum Security` · `Software Supply Chain` · `Formal Assurance` · `Threat-Informed Defense`
 
-That changes the security model.
+---
 
-Traditional application security asks:
+## Technical Foundation
 
-> **“Can an attacker compromise the application?”**
+**Security:** Threat modeling · adversarial evaluation · detection engineering · incident analysis · authorization · runtime policy · vulnerability research  
+**AI/ML:** Python · PyTorch · local LLMs · agent architectures · evaluation harnesses · RAG security  
+**Systems:** Docker · Linux · cloud security · telemetry · graph analytics · CI/CD · infrastructure-as-code  
+**Assurance:** NIST AI RMF · NIST CSF · ISO/IEC 42001 · ISO 27001 · OWASP GenAI guidance · MITRE ATT&CK / ATLAS
 
-Agentic AI security must also ask:
+---
 
-> **“Can an attacker manipulate the model into using legitimate authority for an illegitimate action?”**
+## Education & Credentials
 
-My work in this area focuses on security controls around:
+| | |
+|---|---|
+| **PhD, Information Technology** | In progress |
+| **M.S., Cybersecurity & Information Assurance** | Completed |
+| **BBA, Business Analytics** | Completed |
+| **CompTIA PenTest+ · CySA+ · ISC2 CC** | Certified |
 
-* **Prompt injection and indirect prompt injection**
-* **Agent privilege escalation**
-* **Excessive agency and unconstrained tool access**
-* **Identity, authentication, and authorization for agents**
-* **Cross-agent trust and delegation**
-* **Sensitive-data exposure**
-* **Human-in-the-loop control points**
-* **Runtime policy enforcement**
-* **AI-specific threat modeling**
-* **NIST AI RMF-aligned risk governance**
+---
+
+## Security Philosophy
 
 > **The attack surface is no longer only the infrastructure. It is the decision, the authority behind it, and the action that follows.**
 
----
-
-## 🏗️ Currently Building
-
-My next portfolio projects are focused on translating AI security concepts into **demonstrable architectures, attacks, controls, and testing methodology** across:
-
-**Agentic AI Red Teaming** → adversarial testing of autonomous workflows
-
-**Runtime Authority Enforcement** → controlling what agents are permitted to execute
-
-**AI Threat Modeling** → modeling identities, tools, memory, trust boundaries, and attack paths
-
-**Healthcare AI Security** → security architecture for AI operating around sensitive clinical data
-
-**AI Governance Engineering** → translating frameworks such as NIST AI RMF into technical controls
-
----
-
-## 🧠 Security Philosophy
-
-AI security cannot stop at policy.
-
-A governance document cannot prevent an autonomous system from executing an unsafe action. Effective AI security requires governance to be translated into **technical boundaries that can be observed, tested, enforced, and audited at runtime**.
+AI security cannot stop at policy. Controls must become **technical boundaries that are observable, testable, enforceable, and auditable at runtime**.
 
 My approach connects:
 
-**Governance → Threat Modeling → Architecture → Red Teaming → Runtime Controls → Detection → Continuous Assurance**
+**Threat Modeling → Architecture → Adversarial Evaluation → Runtime Control → Detection → Assurance**
 
 The objective is not simply to build more capable AI.
 
-**The objective is to build AI whose authority remains bounded, observable, and defensible.**
+**The objective is to build systems whose authority and consequences remain bounded, observable, and defensible.**
 
 ---
 
-## 📜 Certifications & Education
+<div align="center">
 
-| Credential                                            |    Status |
-| ----------------------------------------------------- | --------: |
-| 🎓 **PhD Information Technology**                     | In Process| 
-| 🎓 **M.S. Cybersecurity & Information Assurance**     | Completed |
-| 🎓 **BBA Business Analytics**                         | Completed |
-| 🏅 **CompTIA PenTest+**                               | Certified |
-| 🏅 **CompTIA CySA+**                                  | Certified |
-| 🏅 **ISC2 Certified in Cybersecurity (CC)**           | Certified |
-| 🏅 **Google Cybersecurity Professional Certificate**  | Certified |
-| 🏅 **Google Data Analytics Professional Certificate** | Certified |
+### Securing intelligence where failure has real-world consequences.
 
-# 🔐 Cyber Range Projects
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Brian_Brookhart-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
 
-⚠️ Vulnerability Management Implementation
-
-End-to-end vulnerability management lifecycle — from discovery through remediation validation.
-
-[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Vulnerability_Management_Implementation.md)
-
-Demonstrates practical experience with vulnerability identification, risk analysis, remediation workflows, and security program operations.
-
-🚨 Security Operations & Incident Response
-
-Hands-on security operations and incident response implementation.
-
-[**View Project →**](https://github.com/bbrookhart/Cyber-Range-Portfolio/blob/main/Security_Operations_%26_Incident_Response.md)
-
-Demonstrates the operational side of cybersecurity: identifying suspicious activity, investigating security events, and driving incidents toward containment and remediation.
-
----
-
-## 🔎 Areas of Interest
-
-`Agentic AI Security` `AI Red Teaming` `LLM Security` `Runtime Security` `AI Governance` `NIST AI RMF` `Prompt Injection` `Threat Modeling` `Security Operations` `Incident Response` `Vulnerability Management` `Healthcare Cybersecurity`
-
----
-
-## 🤝 Connect
-
-I am building this portfolio around one question:
-
-**How do we give autonomous AI systems useful capabilities without giving them uncontrolled authority?**
-
-If you're working on **AI security, agentic systems, AI red teaming, security engineering, AI governance, or high-impact AI deployments**, I'd be glad to connect.
-
-**LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-brookhart/)
-
----
-
-> ### Build systems that are capable.
->
-> ### Build controls that are stronger.
-
-**Build Standards. Build Strength. Build What Lasts.**
-
-
-## 🧰 Tools & Technologies
-
-### Cybersecurity & SIEM
-[![](https://img.shields.io/badge/-Microsoft_Sentinel-00A4EF?style=for-the-badge&logo=Microsoft&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Splunk-000000?style=for-the-badge&logo=Splunk&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Microsoft_Defender-00A4EF?style=for-the-badge&logo=Microsoft&logoColor=white)](#)
-[![](https://img.shields.io/badge/-CrowdStrike-E00000?style=for-the-badge&logo=crowdstrike&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Elastic_SIEM-005571?style=for-the-badge&logo=elastic&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Wireshark-1679A7?style=for-the-badge&logo=Wireshark&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Nessus-3E4D88?style=for-the-badge&logo=Tenable&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Wiz-1A6EFF?style=for-the-badge&logo=wiz&logoColor=white)](#)
-[![](https://img.shields.io/badge/-MITRE_ATT%26CK-C62828?style=for-the-badge&logo=mitre&logoColor=white)](#)
-
-### Agentic AI & LLM Security
-[![](https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](#)
-[![](https://img.shields.io/badge/-LlamaIndex-7C3AED?style=for-the-badge&logo=llama&logoColor=white)](#)
-[![](https://img.shields.io/badge/-CrewAI-FF4B4B?style=for-the-badge&logo=crewai&logoColor=white)](#)
-[![](https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](#)
-[![](https://img.shields.io/badge/-OWASP_LLM_Top10-000000?style=for-the-badge&logo=owasp&logoColor=white)](#)
-[![](https://img.shields.io/badge/-MITRE_ATLAS-C62828?style=for-the-badge&logo=mitre&logoColor=white)](#)
-
-### Data Science & AI/ML
-[![](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
-[![](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](#)
-[![](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)](#)
-[![](https://img.shields.io/badge/-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](#)
-[![](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](#)
-[![](https://img.shields.io/badge/-MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white)](#)
-
-### GRC & Compliance
-[![](https://img.shields.io/badge/-NIST_AI_RMF-15658C?style=for-the-badge&logo=nist&logoColor=white)](#)
-[![](https://img.shields.io/badge/-NIST_CSF-15658C?style=for-the-badge&logo=nist&logoColor=white)](#)
-[![](https://img.shields.io/badge/-EU_AI_Act-003399?style=for-the-badge&logo=europeanunion&logoColor=white)](#)
-[![](https://img.shields.io/badge/-ISO_42001-455A64?style=for-the-badge&logo=iso&logoColor=white)](#)
-[![](https://img.shields.io/badge/-ISO_27001-455A64?style=for-the-badge&logo=iso&logoColor=white)](#)
-[![](https://img.shields.io/badge/-HIPAA-AD1457?style=for-the-badge&logo=heartbeat&logoColor=white)](#)
-[![](https://img.shields.io/badge/-SOC_2-283593?style=for-the-badge&logo=datadog&logoColor=white)](#)
-[![](https://img.shields.io/badge/-CIS_Controls-1E3A5F?style=for-the-badge&logo=shield&logoColor=white)](#)
-
-### Cloud & Automation
-[![](https://img.shields.io/badge/-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](#)
-[![](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](#)
-[![](https://img.shields.io/badge/-PowerShell-2E6DBF?style=for-the-badge&logo=powershell&logoColor=white)](#)
-[![](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](#)
+</div>
