@@ -20,20 +20,16 @@ This portfolio is organized as a research program—not a collection of demos. E
 
 ---
 
-## Genesis Mission Relevance
+## National Mission Alignment
 
-The U.S. Department of Energy's [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) is coupling advanced AI, scientific data, high-performance computing, digital models, experimental facilities, and autonomous laboratories into a national discovery platform.
-
-That convergence creates a new assurance problem: **when AI can influence experiments, infrastructure, or physical processes, model behavior becomes mission behavior.**
+The convergence of advanced AI, scientific data, high-performance computing, digital models, experimental facilities, and autonomous laboratories creates a new assurance problem: **when AI can influence experiments, infrastructure, or physical processes, model behavior becomes mission behavior.**
 
 | Secure autonomous science | Trusted model and agent evaluation | Resilient scientific infrastructure |
 |---|---|---|
 | Task-scoped authority, deterministic enforcement, human approval, runtime containment | Capability TEVV, benchmark integrity, adversarial testing, provenance-aware evidence | Cyber-physical safety invariants, software provenance, crypto agility, consequence containment |
 | **CERBERUS NULL · VIGIL** | **CRUCIBLE · GHOSTLEDGER** | **BLACKSTART · IRONVEIL · HARVEST//ZERO** |
 
-My work independently addresses the security and assurance requirements of **Genesis-class autonomous scientific systems**: systems that must remain bounded, observable, reproducible, and defensible even when a model fails or an adversary succeeds.
-
-<sub>Independent research alignment based on publicly stated mission priorities; no institutional affiliation is implied.</sub>
+My work addresses the security and assurance requirements of **high-consequence autonomous scientific systems**: systems that must remain bounded, observable, reproducible, and defensible even when a model fails or an adversary succeeds.
 
 ---
 
