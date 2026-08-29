@@ -93,7 +93,7 @@ These projects extend the program into frontier-model evaluation, persistent mem
 | **[FALSEPROXY](https://github.com/bbrookhart/falseproxy)** | Can identity, provenance, scope, audience, and revocation survive MCP/A2A delegation? | 96 declarative scenarios across 18 attack classes with matched benign controls and a reproducible preview pipeline |
 | **[GHOSTLEDGER](https://github.com/bbrookhart/ghostledger)** | Can an agent complete the visible task while quietly degrading mission integrity? | 48 paired cases, 18-class sabotage taxonomy, 96 reproducible technical-preview bundles |
 
-<details>
+
 Critical infrastructure, trust, and strategic resilience
 <br>
 
@@ -103,9 +103,6 @@ Critical infrastructure, trust, and strategic resilience
 | **[HARVEST//ZERO](https://github.com/bbrookhart/harvest-zero)** | Cryptographic discovery, dependency-aware post-quantum migration, CBOM, measured PQC microbenchmarks, and crypto agility |
 | **[DEADFALL](https://github.com/bbrookhart/deadfall)** | Temporal campaign graphs for detecting persistent access established for possible future critical-infrastructure disruption |
 
-</details>
-
-<details>
 Applied AI security and governance
 <br>
 
