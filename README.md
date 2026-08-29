@@ -94,7 +94,7 @@ These projects extend the program into frontier-model evaluation, persistent mem
 | **[GHOSTLEDGER](https://github.com/bbrookhart/ghostledger)** | Can an agent complete the visible task while quietly degrading mission integrity? | 48 paired cases, 18-class sabotage taxonomy, 96 reproducible technical-preview bundles |
 
 
-Critical infrastructure, trust, and strategic resilience
+**Critical infrastructure, trust, and strategic resilience**
 <br>
 
 | Project | Focus |
@@ -103,7 +103,7 @@ Critical infrastructure, trust, and strategic resilience
 | **[HARVEST//ZERO](https://github.com/bbrookhart/harvest-zero)** | Cryptographic discovery, dependency-aware post-quantum migration, CBOM, measured PQC microbenchmarks, and crypto agility |
 | **[DEADFALL](https://github.com/bbrookhart/deadfall)** | Temporal campaign graphs for detecting persistent access established for possible future critical-infrastructure disruption |
 
-Applied AI security and governance
+**Applied AI security and governance**
 <br>
 
 | Project | Focus |
