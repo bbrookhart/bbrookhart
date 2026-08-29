@@ -28,7 +28,6 @@ The projects below are treated as research artifacts rather than concept demos. 
 | **[CRUCIBLE](https://github.com/bbrookhart/crucible-ai)** | How should cyber capability and defensive uplift of advanced AI systems be measured without confusing demos with evidence? | Bounded evaluation harness, task-scoped tools, scoring isolation, contamination controls, tamper-evident evidence packages |
 | **[CERBERUS NULL](https://github.com/bbrookhart/cerberus-null)** | Can autonomous cyber-defense agents reason flexibly without acquiring unrestricted authority? | Deterministic control plane, capability model, formal constraints, policy enforcement, adversarial TEVV |
 
-These are the four projects I would start with if reviewing this portfolio for AI-security engineering or research depth.
 
 ---
 
