@@ -16,7 +16,7 @@ I design and evaluate security architectures for **autonomous AI and cyber-physi
 
 > **How can capable AI systems remain useful while preventing model failure, adversarial influence, or compromised agents from becoming unauthorized digital or physical action?**
 
-**Recruiter focus:** AI security engineering · agentic AI evaluation and TEVV · AI red teaming · runtime enforcement · critical-infrastructure resilience
+** AI security engineering · agentic AI evaluation and TEVV · AI red teaming · runtime enforcement · critical-infrastructure resilience
 
 <img src="./assets/recruiter-proof.svg" alt="Measured public research evidence across CERBERUS NULL, VIGIL, BLACKSTART, and Meridian Atlas" width="100%" />
 
