@@ -94,7 +94,7 @@ These projects extend the program into frontier-model evaluation, persistent mem
 | **[GHOSTLEDGER](https://github.com/bbrookhart/ghostledger)** | Can an agent complete the visible task while quietly degrading mission integrity? | 48 paired cases, 18-class sabotage taxonomy, 96 reproducible technical-preview bundles |
 
 <details>
-<summary><b>Critical infrastructure, trust, and strategic resilience</b></summary>
+Critical infrastructure, trust, and strategic resilience
 <br>
 
 | Project | Focus |
@@ -106,7 +106,7 @@ These projects extend the program into frontier-model evaluation, persistent mem
 </details>
 
 <details>
-<summary><b>Applied AI security and governance</b></summary>
+Applied AI security and governance
 <br>
 
 | Project | Focus |
