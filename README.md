@@ -18,8 +18,6 @@ I design and evaluate security architectures for **autonomous AI and cyber-physi
 
 AI security engineering · agentic AI evaluation and TEVV · AI red teaming · runtime enforcement · critical-infrastructure resilience
 
-<img src="./assets/recruiter-proof.svg" alt="Measured public research evidence across CERBERUS NULL, VIGIL, BLACKSTART, and Meridian Atlas" width="100%" />
-
 ---
 
 ## Flagship Research // Start Here
