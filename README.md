@@ -33,11 +33,11 @@ A research-grade control plane that treats the AI planner as untrusted and indep
 <strong>Reason probabilistically. Act deterministically.</strong>
 </td>
 <td width="50%" valign="top">
-<sub>RUNTIME ENFORCEMENT · RUST/PYTHON · 413 TESTS</sub>
+<sub>LOCAL macOS RUNTIME · RUST/SWIFT/PYTHON · 962 TESTS</sub>
 <h3><a href="https://github.com/bbrookhart/VIGIL">VIGIL</a></h3>
-<strong>Runtime Security for Autonomous AI Agents</strong><br><br>
-A pre-execution authority layer that keeps credentials outside the agent process and gates consequential actions through deterministic policy, signed capabilities, provenance and taint tracking, budgets, approval, and tamper-evident audit.<br><br>
-<strong>Evidence:</strong> 413 passing tests, cross-language contract vectors, fuzzing, negative-security cases, and reviewer-facing demonstrations of the enforcement boundary.<br><br>
+<strong>Local Runtime Security Control Plane for Autonomous AI Agents</strong><br><br>
+A production-oriented authority layer that treats agents as untrusted principals and mediates processes, filesystems, networks, tools, and credentials through deterministic policy, signed capabilities, provenance and taint tracking, budgets, approval, and tamper-evident audit. Includes reviewable macOS Endpoint Security and Network System Extension paths; Apple entitlement-dependent device validation remains.<br><br>
+<strong>Evidence:</strong> 962 passing tests across Rust, Swift, and Python; 25 end-to-end attack scenarios; 12 fuzz targets; 54 ADRs; signed replay-resistant policy and provider-health transport; Debug and Release containing-app/System Extension builds.<br><br>
 <strong>Stop the action before it becomes the incident.</strong>
 </td>
 </tr>
