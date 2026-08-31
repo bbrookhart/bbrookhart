@@ -44,7 +44,7 @@ A pre-execution authority layer that keeps credentials outside the agent process
 <tr>
 <td width="50%" valign="top">
 <sub>AI EVALUATION · RED TEAMING · DETECTION ENGINEERING</sub>
-<h3><a href="https://github.com/bbrookhart/meridian-atlas-security">Meridian Atlas Security</a></h3>
+<h3><a href="https://github.com/bbrookhart/meridian-atlas-security">MERIDIAN ATLAS SECURITY</a></h3>
 <strong>Agentic AI Evaluation and Assurance Platform</strong><br><br>
 A seven-package evaluation and control stack integrating garak, PyRIT, DeepTeam, promptfoo, retrieval authorization, deterministic controls, telemetry, detection, and evidence-backed assurance.<br><br>
 <strong>Evidence:</strong> 45 attack replays and 65 benign sessions; N=20 retests with Wilson 95% confidence intervals; measured detection failures including a 13.5%-precision rule and silent telemetry defects.<br><br>
