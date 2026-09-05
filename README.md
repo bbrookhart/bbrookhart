@@ -20,6 +20,23 @@ AI security engineering · agentic AI evaluation and TEVV · AI red teaming · r
 
 ---
 
+## Research Program Map
+
+This portfolio is one coordinated program for preserving human authority, physical safety, digital trust, cryptographic trust, and continuity as autonomous systems gain consequential access.
+
+| System | Role | Current maturity |
+|---|---|---|
+| **[VIGIL](https://github.com/bbrookhart/VIGIL)** | Zero-trust runtime control plane for autonomous digital action | **Active flagship** · implemented and under adversarial verification |
+| **SENTINEL** | Cyber-physical runtime safety gateway | **Planned system** · BLACKSTART supplies current safety-invariant evidence |
+| **FAULTLINE** | Adversarial evaluation range for autonomous systems | **Planned synthesis** · current evaluation evidence spans MERIDIAN ATLAS, CRUCIBLE, NIGHTGLASS, FALSEPROXY, and GHOSTLEDGER |
+| **AEGIS-PQ** | Post-quantum identity, attestation, and authority fabric | **Planned system** · HARVEST//ZERO supplies current migration evidence |
+| **VERITAS** | Cryptographic provenance and authenticity infrastructure | **Planned system** · IRONVEIL supplies current software-provenance evidence |
+| **CONTINUITY** | Resilient cultural and knowledge preservation | **Planned system** · architecture and threat model precede implementation |
+
+The systems remain separate until measured interfaces justify shared components. See the **[full program map](PROGRAM_MAP.md)** for boundaries, evidence sources, interfaces, and the build sequence.
+
+---
+
 ## Flagship Research // Start Here
 
 <table>
@@ -33,11 +50,11 @@ A research-grade control plane that treats the AI planner as untrusted and indep
 <strong>Reason probabilistically. Act deterministically.</strong>
 </td>
 <td width="50%" valign="top">
-<sub>LOCAL macOS RUNTIME · RUST/SWIFT/PYTHON · 962 TESTS</sub>
+<sub>ACTIVE FLAGSHIP · RUST/SWIFT/PYTHON · GENERATED EVIDENCE</sub>
 <h3><a href="https://github.com/bbrookhart/VIGIL">VIGIL</a></h3>
 <strong>Local Runtime Security Control Plane for Autonomous AI Agents</strong><br><br>
-A production-oriented authority layer that treats agents as untrusted principals and mediates processes, filesystems, networks, tools, and credentials through deterministic policy, signed capabilities, provenance and taint tracking, budgets, approval, and tamper-evident audit. Includes reviewable macOS Endpoint Security and Network System Extension paths; Apple entitlement-dependent device validation remains.<br><br>
-<strong>Evidence:</strong> 962 passing tests across Rust, Swift, and Python; 25 end-to-end attack scenarios; 12 fuzz targets; 54 ADRs; signed replay-resistant policy and provider-health transport; Debug and Release containing-app/System Extension builds.<br><br>
+A production-oriented authority layer that treats agents as untrusted principals and mediates processes, filesystems, networks, tools, and credentials through deterministic policy, signed capabilities, provenance and taint tracking, budgets, approval, and tamper-evident audit. The default branch now includes an OS-authenticated authority daemon and bounded descriptor-based Linux reads. Apple entitlement-dependent device validation remains.<br><br>
+<strong>Evidence:</strong> <a href="https://github.com/bbrookhart/VIGIL/blob/vigil_v2/docs/generated/evidence.md">generated inventory</a> of 749 Rust, 199 Swift, and 11 Python source test entry points; 25 adversarial harness tests; 21 named attack paths; 12 fuzz targets; 57 ADRs; 16 workspace crates. CI exercises the full Rust suite, deployment isolation, fuzz smoke, contracts, supply-chain checks, and native adapter builds.<br><br>
 <strong>Stop the action before it becomes the incident.</strong>
 </td>
 </tr>
@@ -109,8 +126,6 @@ These projects extend the program into frontier-model evaluation, persistent mem
 | **[SECURITY-FIRST MULTI-AGENTIC SOC](https://github.com/bbrookhart/secure-agentic-soc)** | Least privilege, human approval, proposal-only containment, deterministic routing, and auditable local-LLM SOC workflows |
 | **[NORTHSTAR MEDICAL AI DEPLOYMENT](https://github.com/bbrookhart/northstar-medical-ai-deployment)** | Secure deployment and lifecycle assurance for constrained agentic AI in a high-stakes healthcare environment |
 
-</details>
-
 ---
 
 ## Technical Depth
@@ -127,7 +142,7 @@ These projects extend the program into frontier-model evaluation, persistent mem
 
 | | |
 |---|---|
-| **Incoming PhD, Information Technology** | Cybersecurity research focus: agentic AI and cyber-physical systems |
+| **PhD, Information Technology (in progress)** | Cybersecurity research focus: agentic AI and cyber-physical systems |
 | **M.S., Cybersecurity & Information Assurance** | Completed |
 | **BBA, Business Analytics** | Completed |
 | **CompTIA PenTest+ · CySA+ · ISC2 CC** | Certified |
