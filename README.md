@@ -20,23 +20,6 @@ AI security engineering · agentic AI evaluation and TEVV · AI red teaming · r
 
 ---
 
-## Research Program Map
-
-This portfolio is one coordinated program for preserving human authority, physical safety, digital trust, cryptographic trust, and continuity as autonomous systems gain consequential access.
-
-| System | Role | Current maturity |
-|---|---|---|
-| **[VIGIL](https://github.com/bbrookhart/VIGIL)** | Zero-trust runtime control plane for autonomous digital action | **Active flagship** · implemented and under adversarial verification |
-| **SENTINEL** | Cyber-physical runtime safety gateway | **Planned system** · BLACKSTART supplies current safety-invariant evidence |
-| **FAULTLINE** | Adversarial evaluation range for autonomous systems | **Planned synthesis** · current evaluation evidence spans MERIDIAN ATLAS, CRUCIBLE, NIGHTGLASS, FALSEPROXY, and GHOSTLEDGER |
-| **AEGIS-PQ** | Post-quantum identity, attestation, and authority fabric | **Planned system** · HARVEST//ZERO supplies current migration evidence |
-| **VERITAS** | Cryptographic provenance and authenticity infrastructure | **Planned system** · IRONVEIL supplies current software-provenance evidence |
-| **CONTINUITY** | Resilient cultural and knowledge preservation | **Planned system** · architecture and threat model precede implementation |
-
-The systems remain separate until measured interfaces justify shared components. See the **[full program map](PROGRAM_MAP.md)** for boundaries, evidence sources, interfaces, and the build sequence.
-
----
-
 ## Flagship Research // Start Here
 
 <table>
