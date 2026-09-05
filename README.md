@@ -34,7 +34,7 @@ My portfolio is organized around one end-to-end research thesis:
 
 | Research pillar | Core questions | Representative work |
 |---|---|---|
-| **Foundation Model Safety & Societal Impact** | When do model behaviors undermine epistemic, value, or decision autonomy? How should persuasion, sycophancy, overreliance, and disempowerment potential be measured? | **Preserving Human Agency** *(design phase)* · AI persuasion study *(planned, ethics-dependent)* |
+| **Foundation Model Safety & Societal Impact** | When do model behaviors undermine epistemic, value, or decision autonomy? How should persuasion, sycophancy, overreliance, and disempowerment potential be measured? | **[AUTONOMY EVALS — Preserving Human Agency](https://github.com/bbrookhart/autonomy-evals)** *(active)* · AI persuasion study *(planned, ethics-dependent)* |
 | **Agentic AI Safety & Control** | What happens when models can act rather than only advise? Which approval, monitoring, capability, and policy mechanisms constrain misaligned or compromised agents? | **CERBERUS NULL** · **VIGIL** · human oversight under agentic misalignment *(planned)* |
 | **AI Security & Adversarial Evaluation** | How can attackers exploit model/tool interactions, memory, delegation, retrieval, or excessive agency? Which defenses remain effective under adversarial pressure? | **MERIDIAN ATLAS SECURITY** · **NIGHTGLASS** · **FALSEPROXY** · **GHOSTLEDGER** |
 | **Cyber-Physical & High-Consequence AI** | How do autonomous decisions propagate into operational and physical consequence, and how can independent safety boundaries preserve mission integrity? | **BLACKSTART** · critical-infrastructure and software-integrity research |
@@ -43,24 +43,25 @@ My portfolio is organized around one end-to-end research thesis:
 
 These studies extend the existing security portfolio upward from **protecting systems from AI failure** to also measuring **how foundation-model behavior can affect people and human decision-making**.
 
-#### Preserving Human Agency — Foundation Model Autonomy Evaluation
+#### [AUTONOMY EVALS — Preserving Human Agency](https://github.com/bbrookhart/autonomy-evals)
 
-**Status: research design / implementation next**
+**Status: active research · measurement development · v0.2 validity upgrade**
 
 Research question:
 
 > Under what conversational conditions do foundation-model assistants exhibit behaviors that may undermine a user's epistemic, value, or action autonomy, and can targeted interventions reduce those behaviors without materially degrading helpfulness?
 
-Planned contributions include:
+Current public research infrastructure includes:
 
-- multi-turn evaluation scenarios across epistemic, value, and action autonomy;
-- counterfactual pairing to measure belief-conditioned conclusion shifts;
-- sycophancy and validation-seeking evaluations;
-- counterevidence-recovery metrics;
-- multi-turn interaction-drift analysis;
-- autonomy-preserving intervention experiments;
-- human-vs-LLM grader validation;
-- safety–utility frontier analysis.
+- 30 authored v0.1 base scenarios across epistemic, value, and action autonomy;
+- 720 controlled variants with paired and multi-turn conditions;
+- counterfactual pairing and belief-conditioned conclusion analysis;
+- sycophancy, validation-seeking, counterevidence-recovery, and action-pressure scoring;
+- human-vs-LLM grader validation workflows;
+- scenario-clustered uncertainty and safety–utility analysis;
+- an active v0.2 validity upgrade adding justified-agreement positive controls, genuine value-revelation cases, multiple conversation trajectories, and evidence-sensitive agreement diagnostics.
+
+The claim boundary is explicit: these evaluations measure **model behaviors associated with autonomy-preserving or autonomy-undermining interaction patterns**; they do not establish psychological or societal harm to people.
 
 #### AI Persuasion & Human Influence
 
@@ -85,6 +86,24 @@ The evaluation will use simulated organizational environments, synthetic data, c
 ---
 
 ## Flagship Research // Start Here
+
+<a href="https://github.com/bbrookhart/autonomy-evals">
+  <img src="./assets/autonomy-evals-flagship.svg" alt="Preserving Human Agency — foundation model autonomy evaluation" width="100%" />
+</a>
+
+<div align="center">
+
+### [AUTONOMY EVALS — Preserving Human Agency](https://github.com/bbrookhart/autonomy-evals)
+
+**Foundation Model Safety · Human Agency · Behavioral Evaluation · Measurement Validation**
+
+A research-grade evaluation framework for determining whether conversational AI remains evidence-grounded and user-directed under confidence pressure, validation seeking, counterevidence, value revelation, and consequential recommendation requests. The project explicitly tests the failure mode where an anti-sycophancy intervention becomes reflexively skeptical: **unsupported agreement should fall while warranted agreement and useful directness remain intact.**
+
+**Current evidence:** 30 authored base scenarios → 720 controlled v0.1 variants; three autonomy domains; reproducible model/grader/human-annotation pipeline; v0.2 development branch adds positive controls, evidence-sensitive agreement, multiple trajectory families, independent scenario review, and measurement-validation gates. **Real-model v0.2 findings remain pending calibration.**
+
+</div>
+
+<br>
 
 <table>
 <tr>
@@ -148,6 +167,12 @@ Across both safety and security research, I use the same methodological commitme
 
 ## Active AI Safety & Security Research
 
+### Foundation-model safety and societal impact
+
+| Project | Research question | Current public evidence |
+|---|---|---|
+| **[AUTONOMY EVALS](https://github.com/bbrookhart/autonomy-evals)** | When do foundation-model assistants remain evidence-grounded and user-directed, and when do they drift toward sycophancy, value substitution, or premature action pressure? | 30 authored v0.1 bases, 720 controlled variants, paired multi-turn design, blinded grader/human annotation workflows; v0.2 validity upgrade adds positive controls and evidence-sensitive agreement |
+
 ### Agent behavior, memory, delegation, and adversarial evaluation
 
 | Project | Research question | Current public evidence |
@@ -178,7 +203,7 @@ Across both safety and security research, I use the same methodological commitme
 
 | Foundation-model safety & evaluation | AI security & control | Systems & quantitative methods |
 |---|---|---|
-| Behavioral evaluation · multi-turn evals · construct definition · paired/counterfactual controls · grader validation · safety–utility tradeoffs · societal-impact measurement · TEVV | Agent authority · prompt injection · memory poisoning · tool-use security · RAG authorization · delegation · provenance · runtime monitoring · excessive agency · human approval | Python · Rust · FastAPI · Docker · OpenTelemetry · ClickHouse · DuckDB · OPA/Rego · GitHub Actions · Linux · experimental design · confidence intervals · failure attribution · reproducibility |
+| Behavioral evaluation · multi-turn evals · construct definition · paired/counterfactual controls · grader validation · evidence-sensitive agreement · safety–utility tradeoffs · societal-impact measurement · TEVV | Agent authority · prompt injection · memory poisoning · tool-use security · RAG authorization · delegation · provenance · runtime monitoring · excessive agency · human approval | Python · Rust · FastAPI · Docker · OpenTelemetry · ClickHouse · DuckDB · OPA/Rego · GitHub Actions · Linux · experimental design · confidence intervals · failure attribution · reproducibility |
 
 **Frameworks and standards:** NIST AI RMF · NIST SP 800-53 · NIST SP 800-82 · ISO/IEC 42001 · ISO/IEC 27001 · OWASP GenAI guidance · MITRE ATT&CK / ATLAS
 
