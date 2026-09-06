@@ -45,7 +45,7 @@ These studies extend the existing security portfolio upward from **protecting sy
 
 #### [AUTONOMY EVALS — Preserving Human Agency](https://github.com/bbrookhart/autonomy-evals)
 
-**Status: active research · measurement development · v0.2 validity upgrade**
+**Status: active research**
 
 Research question:
 
