@@ -161,7 +161,7 @@ The most important limitation is explicit: **broker-mediated authority is real; 
 
 ---
 
-## What this project demonstrates to a recruiter
+## What this project demonstrates 
 
 VIGIL is designed to show depth beyond a conventional “LLM security demo.” It requires reasoning across:
 
@@ -178,7 +178,7 @@ VIGIL is designed to show depth beyond a conventional “LLM security demo.” I
 
 ---
 
-## Good interview questions
+## Good questions
 
 If we discuss VIGIL in an interview, the most interesting questions are not “what framework did you use?” They are:
 
