@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">VIGIL — Autonomous Agent Runtime Security Control Plane</title>
+  <desc id="desc">Dark technical banner with cyan and violet runtime-security motifs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="1" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1398" height="418" rx="27" fill="none" stroke="#243244" stroke-width="2"/>
+
+  <g opacity="0.8">
+    <circle cx="1120" cy="210" r="140" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0.18"/>
+    <circle cx="1120" cy="210" r="102" fill="none" stroke="#60A5FA" stroke-width="2" opacity="0.28"/>
+    <circle cx="1120" cy="210" r="62" fill="none" stroke="#A78BFA" stroke-width="2" opacity="0.38"/>
+    <path d="M980 210h280M1120 70v280" stroke="#64748B" stroke-width="1" opacity="0.22"/>
+    <path d="M1022 112l196 196M1218 112l-196 196" stroke="#64748B" stroke-width="1" opacity="0.16"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M1082 192h76v58c0 38-24 68-38 76-14-8-38-38-38-76z" fill="none" stroke="url(#accent)" stroke-width="5"/>
+    <path d="M1100 225l14 14 28-32" fill="none" stroke="#E0F2FE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <rect x="82" y="68" width="126" height="28" rx="14" fill="#0E7490" opacity="0.2" stroke="#22D3EE"/>
+  <text x="145" y="87" text-anchor="middle" fill="#67E8F9" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" letter-spacing="1.8">PRIVATE BUILD</text>
+
+  <text x="82" y="175" fill="#F8FAFC" font-size="82" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800" letter-spacing="8">VIGIL</text>
+  <rect x="82" y="197" width="560" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="82" y="246" fill="#CBD5E1" font-size="26" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">Autonomous Agent Runtime Security Control Plane</text>
+  <text x="82" y="286" fill="#94A3B8" font-size="19" font-family="Inter,Segoe UI,Arial,sans-serif">Zero-trust authority · signed capabilities · provenance · approval · pre-execution control</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">
+    <rect x="82" y="324" width="95" height="36" rx="18" fill="#0F172A" stroke="#334155"/><text x="129.5" y="347" text-anchor="middle" fill="#E2E8F0">RUST</text>
+    <rect x="190" y="324" width="95" height="36" rx="18" fill="#0F172A" stroke="#334155"/><text x="237.5" y="347" text-anchor="middle" fill="#E2E8F0">SWIFT</text>
+    <rect x="298" y="324" width="105" height="36" rx="18" fill="#0F172A" stroke="#334155"/><text x="350.5" y="347" text-anchor="middle" fill="#E2E8F0">macOS</text>
+    <rect x="416" y="324" width="150" height="36" rx="18" fill="#0F172A" stroke="#334155"/><text x="491" y="347" text-anchor="middle" fill="#E2E8F0">ZERO TRUST</text>
+  </g>
+
+  <text x="1318" y="382" text-anchor="end" fill="#64748B" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1.4">BRIAN BROOKHART · AI SECURITY RESEARCH</text>
+</svg>
