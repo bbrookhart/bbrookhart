@@ -35,7 +35,7 @@ My portfolio is organized around one end-to-end research thesis:
 | Research pillar | Core questions | Representative work |
 |---|---|---|
 | **Foundation Model Safety & Societal Impact** | When do model behaviors undermine epistemic, value, or decision autonomy? How should persuasion, sycophancy, overreliance, and disempowerment potential be measured? | **[AUTONOMY EVALS — Preserving Human Agency](https://github.com/bbrookhart/autonomy-evals)** *(active)* · AI persuasion study *(planned, ethics-dependent)* |
-| **Agentic AI Safety & Control** | What happens when models can act rather than only advise? Which approval, monitoring, capability, and policy mechanisms constrain misaligned or compromised agents? | **CERBERUS NULL** · **VIGIL** · human oversight under agentic misalignment *(planned)* |
+| **Agentic AI Safety & Control** | What happens when models can act rather than only advise? Which approval, monitoring, capability, and policy mechanisms constrain misaligned or compromised agents? | **CERBERUS NULL** · **[VIGIL](https://github.com/bbrookhart/VIGIL)** *(private implementation)* · human oversight under agentic misalignment *(planned)* |
 | **AI Security & Adversarial Evaluation** | How do weaknesses in AI, tools, identity, software, and cloud infrastructure compose into consequential attack paths, and which controls actually break those paths? | **[FAULTLINE](https://github.com/bbrookhart/faultline)** *(private implementation)* · **MERIDIAN ATLAS SECURITY** · **NIGHTGLASS** · **FALSEPROXY** · **GHOSTLEDGER** |
 | **Cyber-Physical & High-Consequence AI** | How do autonomous decisions propagate into operational and physical consequence, and how can independent safety boundaries preserve mission integrity? | **BLACKSTART** · critical-infrastructure and software-integrity research |
 
@@ -125,6 +125,26 @@ Faultline asks whether a weakness in AI, software, identity, or infrastructure c
 
 <br>
 
+<a href="https://github.com/bbrookhart/VIGIL">
+  <img src="./assets/vigil-flagship.svg" alt="VIGIL — runtime safety and security control plane for autonomous AI agents" width="100%" />
+</a>
+
+<div align="center">
+
+### [VIGIL](https://github.com/bbrookhart/VIGIL) · Private Implementation
+
+**Agent Runtime Security · Zero-Trust Authority · Capability Enforcement · Pre-Execution Control**
+
+VIGIL is a local runtime safety and security control plane that treats autonomous agents as untrusted principals. It mediates process, filesystem, network, tool, and credential authority through deterministic policy, signed capabilities, provenance and taint tracking, action budgets, approval gates, and tamper-evident audit before protected execution.
+
+**Current generated evidence:** inventory of 749 Rust, 199 Swift, and 11 Python source test entry points; 25 adversarial harness tests; 21 named attack paths; 12 fuzz targets; 57 ADRs; and 16 workspace crates. This is implementation and test evidence, not a claim of production-world safety or complete platform validation. Apple entitlement-dependent device validation remains.
+
+**Stop unsafe action before it becomes consequence.**
+
+</div>
+
+<br>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -136,16 +156,6 @@ A research-grade control plane that treats the AI planner as untrusted and indep
 <strong>Reason probabilistically. Act deterministically.</strong>
 </td>
 <td width="50%" valign="top">
-<sub>ACTIVE FLAGSHIP · RUST/SWIFT/PYTHON · GENERATED EVIDENCE</sub>
-<h3><a href="https://github.com/bbrookhart/VIGIL">VIGIL</a></h3>
-<strong>Local Runtime Safety & Security Control Plane for Autonomous AI Agents</strong><br><br>
-A production-oriented authority layer that treats agents as untrusted principals and mediates processes, filesystems, networks, tools, and credentials through deterministic policy, signed capabilities, provenance and taint tracking, budgets, approval, and tamper-evident audit. The default branch includes an OS-authenticated authority daemon and bounded descriptor-based Linux reads. Apple entitlement-dependent device validation remains.<br><br>
-<strong>Evidence:</strong> <a href="https://github.com/bbrookhart/VIGIL/blob/vigil_v2/docs/generated/evidence.md">generated inventory</a> of 749 Rust, 199 Swift, and 11 Python source test entry points; 25 adversarial harness tests; 21 named attack paths; 12 fuzz targets; 57 ADRs; 16 workspace crates. CI exercises the full Rust suite, deployment isolation, fuzz smoke, contracts, supply-chain checks, and native adapter builds.<br><br>
-<strong>Stop unsafe action before it becomes consequence.</strong>
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
 <sub>CYBER-PHYSICAL · OT/ICS · MEASURED EXPERIMENT</sub>
 <h3><a href="https://github.com/bbrookhart/blackstart-cyber-range">BLACKSTART</a></h3>
 <strong>Consequence-Driven Cyber-Physical Resilience</strong><br><br>
