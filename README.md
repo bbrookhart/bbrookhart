@@ -145,26 +145,43 @@ VIGIL is a local runtime safety and security control plane that treats autonomou
 
 <br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<sub>MEASURED v0.1 · FORMAL METHODS · AGENT AUTHORITY</sub>
-<h3><a href="https://github.com/bbrookhart/cerberus-null">CERBERUS NULL</a></h3>
-<strong>Formally Constrained Agentic Cyber Defense</strong><br><br>
-A research-grade control plane that treats the AI planner as untrusted and independently evaluates identity, mission, capability, provenance, policy, safety, consequence, approval, and emergency state before protected execution.<br><br>
-<strong>Evidence:</strong> 0/24 unsafe actions escaped; 13/14 unsafe executions in the naive comparator versus 0/14 with CERBERUS NULL; bounded TLC model checking found no F1-F7 counterexample across 221 reachable states.<br><br>
-<strong>Reason probabilistically. Act deterministically.</strong>
-</td>
-<td width="50%" valign="top">
-<sub>CYBER-PHYSICAL · OT/ICS · MEASURED EXPERIMENT</sub>
-<h3><a href="https://github.com/bbrookhart/blackstart-cyber-range">BLACKSTART</a></h3>
-<strong>Consequence-Driven Cyber-Physical Resilience</strong><br><br>
-A reproducible research range that connects cyber events to control state, physical-process behavior, explicit safety invariants, causal evidence, and mission consequence.<br><br>
-<strong>Evidence:</strong> in the frozen synthetic experiment, the unprotected run accumulated 639.5 seconds of unsafe duration; the independent engineering backstop reduced unsafe duration to 0.0 seconds with independently recalculated metrics.<br><br>
-<strong>Assume compromise. Preserve the mission.</strong>
-</td>
-</tr>
-</table>
+<a href="https://github.com/bbrookhart/cerberus-null">
+  <img src="./assets/cerberus-null-flagship.svg" alt="CERBERUS NULL — formally constrained agentic cyber defense" width="100%" />
+</a>
+
+<div align="center">
+
+### [CERBERUS NULL](https://github.com/bbrookhart/cerberus-null)
+
+**Formal Methods · Agent Authority · Deterministic Policy · Protected Execution**
+
+CERBERUS NULL is a research-grade control plane that treats the AI planner as untrusted and independently evaluates identity, mission, capability, provenance, policy, safety, consequence, approval, and emergency state before protected execution.
+
+**Measured v0.1 evidence:** 0/24 unsafe actions escaped; the naive comparator executed 13/14 unsafe actions versus 0/14 with CERBERUS NULL; bounded TLC model checking found no F1–F7 counterexample across 221 reachable states. These results are bounded to the evaluated model and experiment rather than a claim of complete system security.
+
+**Reason probabilistically. Act deterministically.**
+
+</div>
+
+<br>
+
+<a href="https://github.com/bbrookhart/blackstart-cyber-range">
+  <img src="./assets/blackstart-flagship.svg" alt="BLACKSTART — consequence-driven cyber-physical resilience" width="100%" />
+</a>
+
+<div align="center">
+
+### [BLACKSTART](https://github.com/bbrookhart/blackstart-cyber-range)
+
+**Cyber-Physical Resilience · OT/ICS · Safety Invariants · Mission Consequence**
+
+BLACKSTART is a reproducible research range that connects cyber events to control state, physical-process behavior, explicit safety invariants, causal evidence, and mission consequence so defensive mechanisms can be evaluated against what actually matters operationally.
+
+**Measured evidence:** in the frozen synthetic experiment, the unprotected run accumulated 639.5 seconds of unsafe duration; the independent engineering backstop reduced unsafe duration to 0.0 seconds with independently recalculated metrics. This is a controlled synthetic experiment, not a production-world effectiveness claim.
+
+**Assume compromise. Preserve the mission.**
+
+</div>
 
 ---
 
