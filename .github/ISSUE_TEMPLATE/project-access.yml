@@ -1,0 +1,70 @@
+name: Private Project Access Request
+description: Request recruiter, hiring-manager, or research-review access to a private implementation.
+title: "[Access Request] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest. VIGIL and FAULTLINE remain private while their research and implementation mature. This form is for legitimate recruiting, hiring, technical-review, and research-collaboration requests.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which private implementation would you like to review?
+      options:
+        - VIGIL — Autonomous Agent Runtime Security Control Plane
+        - FAULTLINE — AI & Cloud Adversarial Validation Platform
+        - Both VIGIL and FAULTLINE
+    validations:
+      required: true
+
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub username
+      description: The GitHub account that would receive access if approved.
+      placeholder: your-github-username
+    validations:
+      required: true
+
+  - type: input
+    id: organization_role
+    attributes:
+      label: Organization and role
+      description: Company, lab, university, or organization and your role/title.
+      placeholder: Example Corp — Senior AI Security Recruiter
+    validations:
+      required: true
+
+  - type: dropdown
+    id: context
+    attributes:
+      label: Review context
+      options:
+        - Recruiting / hiring evaluation
+        - Technical interview preparation or follow-up
+        - Research collaboration
+        - Security architecture review
+        - Other professional review
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: What would you like to review?
+      description: Briefly describe the role, research area, or technical areas you want to evaluate.
+      placeholder: I am evaluating candidates for an agentic AI security role and would like to review the architecture, tests, and implementation approach.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: expectations
+    attributes:
+      label: Review expectations
+      options:
+        - label: I understand access is selective and is not guaranteed.
+          required: true
+        - label: I will not redistribute private source code or non-public artifacts without permission.
+          required: true
