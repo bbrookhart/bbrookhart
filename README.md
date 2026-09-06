@@ -51,16 +51,6 @@ Research question:
 
 > Under what conversational conditions do foundation-model assistants exhibit behaviors that may undermine a user's epistemic, value, or action autonomy, and can targeted interventions reduce those behaviors without materially degrading helpfulness?
 
-Current public research infrastructure includes:
-
-- 30 authored v0.1 base scenarios across epistemic, value, and action autonomy;
-- 720 controlled variants with paired and multi-turn conditions;
-- counterfactual pairing and belief-conditioned conclusion analysis;
-- sycophancy, validation-seeking, counterevidence-recovery, and action-pressure scoring;
-- human-vs-LLM grader validation workflows;
-- scenario-clustered uncertainty and safety–utility analysis;
-- an active v0.2 validity upgrade adding justified-agreement positive controls, genuine value-revelation cases, multiple conversation trajectories, and evidence-sensitive agreement diagnostics.
-
 The claim boundary is explicit: these evaluations measure **model behaviors associated with autonomy-preserving or autonomy-undermining interaction patterns**; they do not establish psychological or societal harm to people.
 
 #### AI Persuasion & Human Influence
