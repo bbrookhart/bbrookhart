@@ -39,6 +39,8 @@ My portfolio is organized around one end-to-end research thesis:
 | **AI Security & Adversarial Evaluation** | How do weaknesses in AI, tools, identity, software, and cloud infrastructure compose into consequential attack paths, and which controls actually break those paths? | **FAULTLINE** *(private implementation)* · **MERIDIAN ATLAS SECURITY** · **NIGHTGLASS** · **FALSEPROXY** · **GHOSTLEDGER** |
 | **Cyber-Physical & High-Consequence AI** | How do autonomous decisions propagate into operational and physical consequence, and how can independent safety boundaries preserve mission integrity? | **BLACKSTART** · critical-infrastructure and software-integrity research |
 
+---
+
 ### Emerging Safety Research Track
 
 These studies extend the existing security portfolio upward from **protecting systems from AI failure** to also measuring **how foundation-model behavior can affect people and human decision-making**.
