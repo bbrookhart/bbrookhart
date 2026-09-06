@@ -7,6 +7,8 @@ body:
       value: |
         Thanks for your interest. VIGIL and FAULTLINE remain private while their research and implementation mature. This form is for legitimate recruiting, hiring, technical-review, and research-collaboration requests.
 
+        **Privacy note:** GitHub issues in this portfolio repository are public. Do not include confidential hiring or company information here. For a confidential recruiting conversation, contact Brian through LinkedIn and include the GitHub username that would need access.
+
   - type: dropdown
     id: project
     attributes:
@@ -32,8 +34,8 @@ body:
     id: organization_role
     attributes:
       label: Organization and role
-      description: Company, lab, university, or organization and your role/title.
-      placeholder: Example Corp — Senior AI Security Recruiter
+      description: Company, lab, university, or organization and your role/title. Keep this high-level because the issue is public.
+      placeholder: Example Corp — AI Security Recruiter
     validations:
       required: true
 
@@ -54,7 +56,7 @@ body:
     id: reason
     attributes:
       label: What would you like to review?
-      description: Briefly describe the role, research area, or technical areas you want to evaluate.
+      description: Briefly describe the role, research area, or technical areas you want to evaluate. Do not include confidential information.
       placeholder: I am evaluating candidates for an agentic AI security role and would like to review the architecture, tests, and implementation approach.
     validations:
       required: true
