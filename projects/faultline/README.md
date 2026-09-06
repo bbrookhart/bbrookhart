@@ -200,7 +200,7 @@ Observed authorization context is treated as **evidence**, not automatically as 
 
 ---
 
-## What this project demonstrates to a recruiter
+## What this project demonstrates
 
 FAULTLINE is intended to demonstrate the ability to work across multiple security layers rather than treating AI security as isolated prompt testing.
 
@@ -220,7 +220,7 @@ It combines:
 
 ---
 
-## Good interview questions
+## Good questions
 
 The strongest FAULTLINE discussion topics are:
 
