@@ -12,13 +12,13 @@
 
 > **As AI systems move from generating information to influencing decisions and taking action, safety and security become one problem: keeping increasingly capable systems aligned with human intent under uncertainty, pressure, and adversarial conditions.**
 
-I study how advanced AI systems fail — from **foundation-model behaviors that can distort beliefs, values, or decisions** to **agentic misalignment, adversarial compromise, and unauthorized autonomous action** — and how rigorous evaluation, human oversight, and independently enforced controls can reduce those risks.
+I study how advanced AI systems fail — from **foundation-model behaviors that can distort beliefs, values, or decisions** to **agentic misalignment, adversarial compromise, and unauthorized autonomous action** — and how rigorous evaluation, human oversight, adversarial validation, and independently enforced controls can reduce those risks.
 
 My research asks:
 
-> **How can we measure when AI systems undermine human agency, identify when autonomous behavior departs from intended objectives, and build technical boundaries that keep failures from becoming consequential actions?**
+> **How can we measure when AI systems undermine human agency, trace how failures propagate across trust boundaries, and build technical boundaries that keep those failures from becoming consequential actions?**
 
-Foundation-model evaluation · societal-impact measurement · human agency · agentic AI safety · AI red teaming · runtime enforcement · cyber-physical resilience
+Foundation-model evaluation · societal-impact measurement · human agency · agentic AI safety · AI red teaming · attack-path analysis · runtime enforcement · cyber-physical resilience
 
 ---
 
@@ -36,7 +36,7 @@ My portfolio is organized around one end-to-end research thesis:
 |---|---|---|
 | **Foundation Model Safety & Societal Impact** | When do model behaviors undermine epistemic, value, or decision autonomy? How should persuasion, sycophancy, overreliance, and disempowerment potential be measured? | **[AUTONOMY EVALS — Preserving Human Agency](https://github.com/bbrookhart/autonomy-evals)** *(active)* · AI persuasion study *(planned, ethics-dependent)* |
 | **Agentic AI Safety & Control** | What happens when models can act rather than only advise? Which approval, monitoring, capability, and policy mechanisms constrain misaligned or compromised agents? | **CERBERUS NULL** · **VIGIL** · human oversight under agentic misalignment *(planned)* |
-| **AI Security & Adversarial Evaluation** | How can attackers exploit model/tool interactions, memory, delegation, retrieval, or excessive agency? Which defenses remain effective under adversarial pressure? | **MERIDIAN ATLAS SECURITY** · **NIGHTGLASS** · **FALSEPROXY** · **GHOSTLEDGER** |
+| **AI Security & Adversarial Evaluation** | How do weaknesses in AI, tools, identity, software, and cloud infrastructure compose into consequential attack paths, and which controls actually break those paths? | **[FAULTLINE](https://github.com/bbrookhart/faultline)** *(private implementation)* · **MERIDIAN ATLAS SECURITY** · **NIGHTGLASS** · **FALSEPROXY** · **GHOSTLEDGER** |
 | **Cyber-Physical & High-Consequence AI** | How do autonomous decisions propagate into operational and physical consequence, and how can independent safety boundaries preserve mission integrity? | **BLACKSTART** · critical-infrastructure and software-integrity research |
 
 ### Emerging Safety Research Track
@@ -105,6 +105,26 @@ A research-grade evaluation framework for determining whether conversational AI 
 
 <br>
 
+<a href="https://github.com/bbrookhart/faultline">
+  <img src="./assets/faultline-flagship.svg" alt="Faultline — continuous adversarial validation across AI and cloud" width="100%" />
+</a>
+
+<div align="center">
+
+### [FAULTLINE](https://github.com/bbrookhart/faultline) · Private Implementation
+
+**AI & Cloud Adversarial Validation · Attack-Path Analysis · MCP & Coding-Agent Security · Control Effectiveness**
+
+Faultline asks whether a weakness in AI, software, identity, or infrastructure can propagate across trust boundaries into material security impact — and what is the smallest defensive change that breaks that path. It combines probabilistic adversarial evaluation, security-graph reasoning, replay, differential remediation testing, purple-team validation, control-effectiveness analysis, and minimum-control-cut reasoning across AI and cloud systems.
+
+**Current evidence:** synthetic AI-agent lab baseline 236/720 successful attack trials → 0/720 after hardening; MCP lab 371/600 → 0/600; coding-agent arena 381/630 → 0/630, with legitimate-work checks retained. These are controlled synthetic evaluations, not production-world effectiveness claims. The implementation remains early-stage; consequential and production execution are disabled.
+
+**Find the path. Prove the risk. Break the chain.**
+
+</div>
+
+<br>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -125,15 +145,7 @@ A production-oriented authority layer that treats agents as untrusted principals
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub>AI EVALUATION · RED TEAMING · DETECTION ENGINEERING</sub>
-<h3><a href="https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY">MERIDIAN ATLAS SECURITY</a></h3>
-<strong>Agentic AI Evaluation and Assurance Platform</strong><br><br>
-A seven-package evaluation and control stack integrating garak, PyRIT, DeepTeam, promptfoo, retrieval authorization, deterministic controls, telemetry, detection, and evidence-backed assurance.<br><br>
-<strong>Evidence:</strong> 45 attack replays and 65 benign sessions; N=20 retests with Wilson 95% confidence intervals; measured detection failures including a 13.5%-precision rule and silent telemetry defects.<br><br>
-<strong>Measure the failure — including the controls that fail.</strong>
-</td>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 <sub>CYBER-PHYSICAL · OT/ICS · MEASURED EXPERIMENT</sub>
 <h3><a href="https://github.com/bbrookhart/blackstart-cyber-range">BLACKSTART</a></h3>
 <strong>Consequence-Driven Cyber-Physical Resilience</strong><br><br>
@@ -157,11 +169,12 @@ A reproducible research range that connects cyber events to control state, physi
 Across both safety and security research, I use the same methodological commitments:
 
 - **Define the claim boundary first.** Model behavior, human impact, system compromise, and physical consequence are related but distinct constructs and should not be conflated.
-- **Paired and adversarial evaluation.** Baselines, matched controls, negative cases, counterfactual pairs, failure attribution, and safety–utility tradeoffs remain visible.
+- **Paired and adversarial evaluation.** Baselines, matched controls, negative cases, counterfactual pairs, failure attribution, attack-path composition, and safety–utility tradeoffs remain visible.
 - **Evidence over demos.** Claims are tied to code, tests, raw artifacts, evaluation logs, statistical analysis, limitations, and reproducibility instructions.
 - **Validate the measurement.** Automated graders are treated as measurement instruments rather than unquestioned ground truth; human agreement and grader sensitivity should be tested where relevant.
+- **Test the control, not just the attack.** A blocked attack is not enough: remediation should be replayed, utility should remain visible, and prevention, detection, alerting, and telemetry gaps should be distinguished.
 - **Authority outside the model.** For autonomous-action systems, models may reason and propose; independently enforced controls decide what may execute.
-- **Consequence-aware analysis.** Evaluation follows what model behavior can change — beliefs, decisions, digital state, or physical state — rather than stopping at surface-level outputs.
+- **Consequence-aware analysis.** Evaluation follows what model behavior can change — beliefs, decisions, identities, digital state, cloud access, or physical state — rather than stopping at surface-level outputs.
 
 ---
 
@@ -173,10 +186,12 @@ Across both safety and security research, I use the same methodological commitme
 |---|---|---|
 | **[AUTONOMY EVALS](https://github.com/bbrookhart/autonomy-evals)** | When do foundation-model assistants remain evidence-grounded and user-directed, and when do they drift toward sycophancy, value substitution, or premature action pressure? | 30 authored v0.1 bases, 720 controlled variants, paired multi-turn design, blinded grader/human annotation workflows; v0.2 validity upgrade adds positive controls and evidence-sensitive agreement |
 
-### Agent behavior, memory, delegation, and adversarial evaluation
+### Agent behavior, adversarial evaluation, and trust-boundary security
 
-| Project | Research question | Current public evidence |
+| Project | Research question | Current evidence |
 |---|---|---|
+| **[FAULTLINE](https://github.com/bbrookhart/faultline)** *(private implementation)* | Can weaknesses in AI, software, identity, or cloud infrastructure compose into consequential attack paths, and what minimum control set breaks those paths? | Synthetic AI-agent, MCP, and coding-agent baseline→hardened evaluations; replay, differential testing, minimum-control-cut analysis, control-effectiveness and purple-team measurement; production/consequential execution disabled |
+| **[MERIDIAN ATLAS SECURITY](https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY)** | How should adversarial AI evaluation connect attack replay, telemetry, detection, and assurance rather than stopping at jailbreak counts? | 45 attack replays + 65 benign sessions; N=20 retests with Wilson 95% CIs; measured detection failures including a 13.5%-precision rule and silent telemetry defects |
 | **[CRUCIBLE](https://github.com/bbrookhart/crucible-ai)** | How should AI cyber capability and defensive uplift be measured without confusing benchmark success with real-world capability? | Functional v0.1 defensive harness, bounded tools, scoring isolation, contamination controls; real-model and human-uplift studies remain planned |
 | **[NIGHTGLASS](https://github.com/bbrookhart/nightglass)** | Can malicious influence persist across agent sessions and trigger a delayed unauthorized action? | 40 enterprise scenarios, 12 attack mechanisms, paired design, deterministic evidence explorer |
 | **[FALSEPROXY](https://github.com/bbrookhart/falseproxy)** | Can identity, provenance, scope, audience, and revocation survive MCP/A2A delegation? | 96 declarative scenarios across 18 attack classes with matched benign controls and a reproducible preview pipeline |
@@ -203,7 +218,7 @@ Across both safety and security research, I use the same methodological commitme
 
 | Foundation-model safety & evaluation | AI security & control | Systems & quantitative methods |
 |---|---|---|
-| Behavioral evaluation · multi-turn evals · construct definition · paired/counterfactual controls · grader validation · evidence-sensitive agreement · safety–utility tradeoffs · societal-impact measurement · TEVV | Agent authority · prompt injection · memory poisoning · tool-use security · RAG authorization · delegation · provenance · runtime monitoring · excessive agency · human approval | Python · Rust · FastAPI · Docker · OpenTelemetry · ClickHouse · DuckDB · OPA/Rego · GitHub Actions · Linux · experimental design · confidence intervals · failure attribution · reproducibility |
+| Behavioral evaluation · multi-turn evals · construct definition · paired/counterfactual controls · grader validation · evidence-sensitive agreement · safety–utility tradeoffs · societal-impact measurement · TEVV | Agent authority · prompt injection · MCP security · coding-agent security · memory poisoning · tool-use security · RAG authorization · delegation · provenance · attack-path analysis · minimum control cuts · runtime monitoring · human approval | Python · Go · Rust · FastAPI · ConnectRPC · Temporal · Neo4j · PostgreSQL · Docker · OpenTelemetry · OPA/Rego · GitHub Actions · Linux · experimental design · confidence intervals · differential testing · reproducibility |
 
 **Frameworks and standards:** NIST AI RMF · NIST SP 800-53 · NIST SP 800-82 · ISO/IEC 42001 · ISO/IEC 27001 · OWASP GenAI guidance · MITRE ATT&CK / ATLAS
 
@@ -222,14 +237,15 @@ Across both safety and security research, I use the same methodological commitme
 
 ## Research Direction
 
-> **The attack surface is no longer only the infrastructure. It is also the model behavior, the human decision, the authority behind an action, and the consequence that follows.**
+> **The attack surface is no longer only the infrastructure. It is also the model behavior, the human decision, the trust boundary, the authority behind an action, and the consequence that follows.**
 
-My long-term research program connects two questions that are often studied separately:
+My long-term research program connects three questions that are often studied separately:
 
 1. **What do increasingly capable AI systems do to human judgment and agency?**
-2. **What happens when those systems gain the authority to act?**
+2. **How do failures propagate across agents, tools, identities, and infrastructure?**
+3. **What happens when those systems gain the authority to act?**
 
-The objective is to build evaluation and control methods that remain useful across that entire path — from model behavior and societal impact to adversarial security and autonomous execution.
+The objective is to build evaluation, adversarial-validation, and control methods that remain useful across that entire path — from model behavior and societal impact to cross-layer compromise and autonomous execution.
 
 <div align="center">
 
