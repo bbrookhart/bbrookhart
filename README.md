@@ -97,13 +97,13 @@ A research-grade evaluation framework for determining whether conversational AI 
 
 <br>
 
-<a href="https://github.com/bbrookhart/faultline">
+<a href="https://github.com/bbrookhart/bbrookhart/tree/main/projects/faultline">
   <img src="./assets/faultline-flagship.svg" alt="Faultline — continuous adversarial validation across AI and cloud" width="100%" />
 </a>
 
 <div align="center">
 
-### [FAULTLINE](https://github.com/bbrookhart/faultline) · Private Implementation
+### [FAULTLINE](https://github.com/bbrookhart/bbrookhart/tree/main/projects/faultline) · Private Implementation · Public Recruiter Dossier
 
 **AI & Cloud Adversarial Validation · Attack-Path Analysis · MCP & Coding-Agent Security · Control Effectiveness**
 
@@ -117,13 +117,13 @@ Faultline asks whether a weakness in AI, software, identity, or infrastructure c
 
 <br>
 
-<a href="https://github.com/bbrookhart/VIGIL">
+<a href="https://github.com/bbrookhart/bbrookhart/tree/main/projects/vigil">
   <img src="./assets/vigil-flagship.svg" alt="VIGIL — runtime safety and security control plane for autonomous AI agents" width="100%" />
 </a>
 
 <div align="center">
 
-### [VIGIL](https://github.com/bbrookhart/VIGIL) · Private Implementation
+### [VIGIL](https://github.com/bbrookhart/bbrookhart/tree/main/projects/vigil) · Private Implementation · Public Recruiter Dossier
 
 **Agent Runtime Security · Zero-Trust Authority · Capability Enforcement · Pre-Execution Control**
 
@@ -209,7 +209,7 @@ Across both safety and security research, I use the same methodological commitme
 
 | Project | Research question | Current evidence |
 |---|---|---|
-| **[FAULTLINE](https://github.com/bbrookhart/faultline)** *(private implementation)* | Can weaknesses in AI, software, identity, or cloud infrastructure compose into consequential attack paths, and what minimum control set breaks those paths? | Synthetic AI-agent, MCP, and coding-agent baseline→hardened evaluations; replay, differential testing, minimum-control-cut analysis, control-effectiveness and purple-team measurement; production/consequential execution disabled |
+| **[FAULTLINE](https://github.com/bbrookhart/bbrookhart/tree/main/projects/faultline)** *(private implementation; public dossier)* | Can weaknesses in AI, software, identity, or cloud infrastructure compose into consequential attack paths, and what minimum control set breaks those paths? | Synthetic AI-agent, MCP, and coding-agent baseline→hardened evaluations; replay, differential testing, minimum-control-cut analysis, control-effectiveness and purple-team measurement; production/consequential execution disabled |
 | **[MERIDIAN ATLAS SECURITY](https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY)** | How should adversarial AI evaluation connect attack replay, telemetry, detection, and assurance rather than stopping at jailbreak counts? | 45 attack replays + 65 benign sessions; N=20 retests with Wilson 95% CIs; measured detection failures including a 13.5%-precision rule and silent telemetry defects |
 | **[CRUCIBLE](https://github.com/bbrookhart/crucible-ai)** | How should AI cyber capability and defensive uplift be measured without confusing benchmark success with real-world capability? | Functional v0.1 defensive harness, bounded tools, scoring isolation, contamination controls; real-model and human-uplift studies remain planned |
 | **[NIGHTGLASS](https://github.com/bbrookhart/nightglass)** | Can malicious influence persist across agent sessions and trigger a delayed unauthorized action? | 40 enterprise scenarios, 12 attack mechanisms, paired design, deterministic evidence explorer |
