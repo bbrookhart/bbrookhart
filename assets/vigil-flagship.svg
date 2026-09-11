@@ -32,7 +32,7 @@
 
     <g filter="url(#shadow)" transform="translate(56 176)">
       <rect width="246" height="105" rx="13" fill="#0d1c30" stroke="#24415f"/>
-      <text x="18" y="40" fill="#38bdf8" font-size="27" font-weight="800">749 / 199 / 11</text>
+      <text x="18" y="40" fill="#38bdf8" font-size="27" font-weight="800">991 / 199 / 11</text>
       <text x="18" y="67" fill="#e5edf6" font-size="15" font-weight="650">Rust · Swift · Python</text>
       <text x="18" y="89" fill="#7892ad" font-size="12">generated source test entry points</text>
     </g>
@@ -46,7 +46,7 @@
 
     <g filter="url(#shadow)" transform="translate(580 176)">
       <rect width="246" height="105" rx="13" fill="#17182e" stroke="#51428d"/>
-      <text x="18" y="40" fill="#a78bfa" font-size="31" font-weight="800">21 + 12</text>
+      <text x="18" y="40" fill="#a78bfa" font-size="31" font-weight="800">21 + 14</text>
       <text x="18" y="67" fill="#f2efff" font-size="15" font-weight="650">attack paths + fuzz targets</text>
       <text x="18" y="89" fill="#aaa1ca" font-size="12">generated evidence inventory</text>
     </g>

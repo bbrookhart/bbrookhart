@@ -129,7 +129,7 @@ Faultline asks whether a weakness in AI, software, identity, or infrastructure c
 
 VIGIL is a local runtime safety and security control plane that treats autonomous agents as untrusted principals. It mediates process, filesystem, network, tool, and credential authority through deterministic policy, signed capabilities, provenance and taint tracking, action budgets, approval gates, and tamper-evident audit before protected execution.
 
-**Current generated evidence:** inventory of 749 Rust, 199 Swift, and 11 Python source test entry points; 25 adversarial harness tests; 21 named attack paths; 12 fuzz targets; 57 ADRs; and 16 workspace crates. This is implementation and test evidence, not a claim of production-world safety or complete platform validation. Apple entitlement-dependent device validation remains.
+**Current generated evidence:** inventory of 991 Rust, 199 Swift, and 11 Python source test entry points; 25 adversarial harness tests; 21 named attack paths; 14 fuzz targets; 64 ADRs; and 18 workspace crates. This is implementation and test evidence, not a claim of production-world safety or complete platform validation. Apple entitlement-dependent device validation remains.
 
 **Stop unsafe action before it becomes consequence.**
 

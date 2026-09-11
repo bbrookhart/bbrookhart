@@ -107,13 +107,13 @@ The architecture intentionally separates **semantic intent** from **OS-observed 
 
 The private implementation currently contains an inventory of:
 
-- **749 Rust** source test entry points
+- **991 Rust** source test entry points
 - **199 Swift** source test entry points
 - **25 adversarial harness tests**
 - **21 named attack paths**
-- **12 fuzz targets**
-- **57 architecture decision records**
-- **16 Rust workspace crates**
+- **14 fuzz targets**
+- **64 architecture decision records**
+- **18 Rust workspace crates**
 - **0 unsafe Rust constructs** in the generated source inventory
 
 These numbers are **implementation/test inventory**, not a claim that VIGIL provides complete production-world safety. CI execution status and environment-specific validation are separate evidence classes.
