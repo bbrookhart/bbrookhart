@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
   <title id="title">Measured research evidence</title>
-  <desc id="desc">CERBERUS NULL: zero of 24 unsafe actions escaped. VIGIL: 413 passing tests. BLACKSTART: unsafe duration reduced from 639.5 seconds to zero. Meridian Atlas: 45 attack and 65 benign replays.</desc>
+  <desc id="desc">CERBERUS NULL: zero of 24 unsafe actions escaped. VIGIL: 982 passing tests. BLACKSTART: unsafe duration reduced from 639.5 seconds to zero. Meridian Atlas: 45 attack and 65 benign replays.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -33,7 +33,7 @@
 
     <g transform="translate(332 91)">
       <rect width="252" height="120" rx="12" fill="#0d1c30" stroke="#24415f"/>
-      <text x="20" y="48" fill="#2dd4bf" font-size="34" font-weight="800">413</text>
+      <text x="20" y="48" fill="#2dd4bf" font-size="34" font-weight="800">982</text>
       <text x="20" y="76" fill="#e5edf6" font-size="16" font-weight="650">passing tests</text>
       <text x="20" y="101" fill="#7892ad" font-size="13">VIGIL runtime core</text>
     </g>
