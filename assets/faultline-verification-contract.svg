@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">The verified-containment contract</title>
+  <desc id="desc">Eight checks are evaluated independently after a remediation. Each can return pass, fail, unknown or not applicable. A new path or a broken service is a regression, a failed required check is a failure, and a required check that could not be evaluated is unknown — which is never promoted to success.</desc>
+  <defs><style>
+    .bg{fill:#f8fafc}.row{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+    .good{fill:#0f766e}.stop{fill:#fff1f2;stroke:#e11d48;stroke-width:2.5}
+    .warnb{fill:#fffbeb;stroke:#b45309;stroke-width:2.5}
+    .t{font:600 17px Inter,Arial,sans-serif;fill:#102a43}
+    .s{font:13px Inter,Arial,sans-serif;fill:#475569}
+    .w{font:600 17px Inter,Arial,sans-serif;fill:#fff}
+    .k{font:700 12px ui-monospace,Menlo,Consolas,monospace;letter-spacing:1.5;fill:#94a3b8}
+    .chk{font:600 14px ui-monospace,Menlo,Consolas,monospace;fill:#102a43}
+    .a{stroke:#64748b;stroke-width:3;fill:none;marker-end:url(#m)}
+  </style>
+  <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#64748b"/></marker>
+  </defs>
+  <rect class="bg" width="1200" height="520" rx="24"/>
+  <text class="t" x="55" y="56" style="font-size:22px">An API returning 200 is not evidence that anything was contained</text>
+
+  <text class="k" x="57" y="96">EVALUATED INDEPENDENTLY, EACH FROM ITS OWN OBSERVATION</text>
+  <rect class="row" x="55" y="110" width="560" height="300" rx="14"/>
+  <g class="chk">
+    <text x="82" y="146">requested state change observed</text>
+    <text x="82" y="182">protected action no longer reachable</text>
+    <text x="82" y="218">credential or session invalidated</text>
+    <text x="82" y="254">original attack path eliminated</text>
+    <text x="82" y="290">no equivalent alternate path</text>
+    <text x="82" y="326">service health</text>
+    <text x="82" y="362">policy remains within scope</text>
+    <text x="82" y="394" style="fill:#475569">independent runtime observation</text>
+  </g>
+  <g class="s" style="font-size:12px;fill:#94a3b8">
+    <text x="470" y="146">re-read</text>
+    <text x="470" y="182">recompute</text>
+    <text x="470" y="218">provider</text>
+    <text x="470" y="254">recompute</text>
+    <text x="470" y="290">advisory</text>
+    <text x="470" y="326">probes</text>
+    <text x="470" y="362">effects</text>
+    <text x="470" y="394">advisory · eBPF</text>
+  </g>
+
+  <path class="a" d="M615 260H672"/>
+
+  <text class="k" x="688" y="96">PRECEDENCE — FIRST MATCH WINS</text>
+  <rect class="stop" x="686" y="110" width="460" height="62" rx="13"/>
+  <text class="t" x="710" y="138" style="fill:#be123c">REGRESSION</text>
+  <text class="s" x="710" y="159">a new path appeared, or the service broke</text>
+
+  <rect class="stop" x="686" y="184" width="460" height="62" rx="13"/>
+  <text class="t" x="710" y="212" style="fill:#be123c">FAILED</text>
+  <text class="s" x="710" y="233">a required check failed</text>
+
+  <rect class="warnb" x="686" y="258" width="460" height="62" rx="13"/>
+  <text class="t" x="710" y="286" style="fill:#b45309">UNKNOWN</text>
+  <text class="s" x="710" y="307">a required check could not be evaluated at all</text>
+
+  <rect class="row" x="686" y="332" width="460" height="62" rx="13"/>
+  <text class="t" x="710" y="360">PARTIAL_SUCCESS</text>
+  <text class="s" x="710" y="381">an advisory check failed — a real alternate path exists</text>
+
+  <rect class="good" x="686" y="406" width="460" height="62" rx="13"/>
+  <text class="w" x="710" y="434">VERIFIED_SUCCESS</text>
+  <text class="s" style="fill:#ccfbf1" x="710" y="455">every required check passed</text>
+
+  <text class="s" x="55" y="440" style="font-weight:600;fill:#b45309">A stale graph, a collector gap, an unreadable</text>
+  <text class="s" x="55" y="460" style="font-weight:600;fill:#b45309">target, a probe that did not run or a sensor</text>
+  <text class="s" x="55" y="480" style="font-weight:600;fill:#b45309">coverage gap all produce UNKNOWN — and no</text>
+  <text class="s" x="55" y="500" style="font-weight:600;fill:#b45309">threshold or confidence score promotes it.</text>
+</svg>

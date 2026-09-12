@@ -49,7 +49,7 @@
   <text x="82" y="175" fill="#FAFAF9" font-size="76" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800" letter-spacing="5">FAULTLINE</text>
   <rect x="82" y="197" width="620" height="5" rx="2.5" fill="url(#accent)"/>
   <text x="82" y="246" fill="#D6D3D1" font-size="26" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">AI + Cloud Adversarial Validation Platform</text>
-  <text x="82" y="286" fill="#A8A29E" font-size="19" font-family="Inter,Segoe UI,Arial,sans-serif">Attack paths · MCP · coding agents · cloud identity · replay · purple-team assurance</text>
+  <text x="82" y="286" fill="#A8A29E" font-size="19" font-family="Inter,Segoe UI,Arial,sans-serif">Attack paths · MCP · coding agents · identity · authorized, verified response</text>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">
     <rect x="82" y="324" width="82" height="36" rx="18" fill="#111113" stroke="#44403C"/><text x="123" y="347" text-anchor="middle" fill="#E7E5E4">GO</text>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">The closed response loop</title>
+  <desc id="desc">Detection builds an attack path, a control cut becomes a proposal, an external authority grants a capability, a worker executes, and Faultline re-observes and recomputes before grading. A verified success ends the incident; a regression is rolled back and a different control tried; anything unknown escalates.</desc>
+  <defs><style>
+    .bg{fill:#f8fafc}.c{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+    .v{fill:#102a43}.ext{fill:#fff7ed;stroke:#ea580c;stroke-width:2.5;stroke-dasharray:9 6}
+    .good{fill:#0f766e}.warn{fill:#b45309}.stop{fill:#fff1f2;stroke:#e11d48;stroke-width:2}
+    .t{font:600 18px Inter,Arial,sans-serif;fill:#102a43}
+    .s{font:13px Inter,Arial,sans-serif;fill:#475569}
+    .w{font:600 17px Inter,Arial,sans-serif;fill:#fff}
+    .k{font:700 11px ui-monospace,Menlo,Consolas,monospace;fill:#94a3b8;letter-spacing:1.5}
+    .a{stroke:#64748b;stroke-width:3;fill:none;marker-end:url(#m)}
+    .retry{stroke:#b45309;stroke-width:3;fill:none;stroke-dasharray:8 6;marker-end:url(#r)}
+  </style>
+  <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#64748b"/></marker>
+  <marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#b45309"/></marker>
+  </defs>
+  <rect class="bg" width="1200" height="470" rx="24"/>
+  <text class="t" x="55" y="58" style="font-size:22px">Every transition is journalled before the effect it precedes</text>
+
+  <rect class="c" x="45" y="110" width="150" height="104" rx="13"/>
+  <text class="t" x="70" y="148">Detect</text><text class="s" x="70" y="176">correlate signals</text><text class="s" x="70" y="196">build the path</text>
+
+  <rect class="c" x="228" y="110" width="150" height="104" rx="13"/>
+  <text class="t" x="253" y="148">Cut</text><text class="s" x="253" y="176">minimum control</text><text class="s" x="253" y="196">rank the candidates</text>
+
+  <rect class="v" x="411" y="98" width="165" height="128" rx="13"/>
+  <text class="w" x="437" y="140">Propose</text><text class="s" style="fill:#dbeafe" x="437" y="170">typed · canonical</text><text class="s" style="fill:#dbeafe" x="437" y="192">digest-bound</text><text class="s" style="fill:#dbeafe" x="437" y="214">rollback planned</text>
+
+  <rect class="ext" x="609" y="110" width="150" height="104" rx="13"/>
+  <text class="t" x="634" y="148">Authorize</text><text class="s" x="634" y="176">VIGIL decides</text><text class="s" x="634" y="196">capability issued</text>
+
+  <rect class="c" x="792" y="110" width="150" height="104" rx="13"/>
+  <text class="t" x="817" y="148">Execute</text><text class="s" x="817" y="176">one registered verb</text><text class="s" x="817" y="196">before / after state</text>
+
+  <rect class="c" x="975" y="110" width="180" height="104" rx="13"/>
+  <text class="t" x="1000" y="148">Verify</text><text class="s" x="1000" y="176">re-observe · recompute</text><text class="s" x="1000" y="196">grade the contract</text>
+
+  <path class="a" d="M195 162H220"/><path class="a" d="M378 162H403"/>
+  <path class="a" d="M576 162H601"/><path class="a" d="M759 162H784"/>
+  <path class="a" d="M942 162H967"/>
+
+  <!-- Three ends, and only one of them is success. -->
+  <path class="a" d="M1065 214V266H352V294"/>
+  <path class="a" d="M1065 214V266H700V294"/>
+  <path class="a" d="M1065 214V266H1036V294"/>
+
+  <rect class="good" x="222" y="300" width="260" height="66" rx="14"/>
+  <text class="w" x="252" y="332">VERIFIED_SUCCESS</text>
+  <text class="s" style="fill:#ccfbf1" x="252" y="354">path gone, service healthy</text>
+
+  <rect class="c" x="570" y="300" width="260" height="66" rx="14"/>
+  <text class="t" x="598" y="330" style="fill:#b45309">ROLLED_BACK</text>
+  <text class="s" x="598" y="352">undone, then a different control</text>
+
+  <rect class="stop" x="918" y="300" width="237" height="66" rx="14"/>
+  <text class="t" x="944" y="330" style="fill:#be123c">ESCALATE</text>
+  <text class="s" x="944" y="352">UNKNOWN is never a success</text>
+
+  <!-- A withdrawn control is followed by a different one, never the same one again. -->
+  <path class="retry" d="M570 333H532V232"/>
+  <text class="k" x="570" y="392" style="fill:#b45309">NEXT-RANKED CONTROL · NEVER THE SAME ONE TWICE · BOUNDED AT THREE</text>
+
+  <text class="s" x="55" y="446">A change that removed some paths is kept and added to, not undone: rolling it back would hand those paths straight back.</text>
+</svg>

@@ -18,7 +18,7 @@ The program assumes models and tools can be manipulated, compromised, malicious,
 |---|---|---|---|
 | **[VIGIL](https://github.com/bbrookhart/VIGIL)** | Autonomous digital actions require external authorization | Agent ↔ operating system, tools, credentials, and network | **Active flagship.** Deterministic policy, capabilities, budgets, approvals, evidence, an OS-authenticated authority daemon, bounded Linux reads, and reviewable macOS adapters. See its [generated evidence](https://github.com/bbrookhart/VIGIL/blob/vigil_v2/docs/generated/evidence.md) and [current-state audit](https://github.com/bbrookhart/VIGIL/blob/vigil_v2/docs/current-state-audit.md). |
 | **SENTINEL** | Authorized commands must remain inside physical safety envelopes | Digital authority ↔ physical process | **Planned system.** [BLACKSTART](https://github.com/bbrookhart/blackstart-cyber-range) supplies the current evidence base for explicit safety invariants, independent engineering backstops, and measured physical consequence. |
-| **FAULTLINE** | Security claims must survive matched adversarial evaluation | System under test ↔ evaluator and evidence plane | **Planned synthesis.** Current components cover control evaluation in [MERIDIAN ATLAS SECURITY](https://github.com/bbrookhart/meridian-atlas-security), bounded capability measurement in [CRUCIBLE](https://github.com/bbrookhart/crucible-ai), persistent-memory attacks in [NIGHTGLASS](https://github.com/bbrookhart/nightglass), delegation in [FALSEPROXY](https://github.com/bbrookhart/falseproxy), and covert sabotage in [GHOSTLEDGER](https://github.com/bbrookhart/ghostledger). |
+| **[FAULTLINE](https://github.com/bbrookhart/bbrookhart/tree/main/projects/faultline)** | Security claims must survive matched adversarial evaluation, and the change that breaks an attack path must be externally authorized, narrowly executed, independently verified, and reversible | System under test ↔ evaluator and evidence plane; evaluator ↔ the authority that permits a consequential change | **Active private implementation.** Adversarial labs, a tenant-partitioned security graph, read-only multi-cloud sensing, minimum-control-cut reasoning, and a closed response loop whose executable surface is five registered operations gated by signed capabilities from an external authority. Exercised against a synthetic cyber range; not yet run against a real cluster. Related evaluation evidence remains in [MERIDIAN ATLAS SECURITY](https://github.com/bbrookhart/meridian-atlas-security), [CRUCIBLE](https://github.com/bbrookhart/crucible-ai), [NIGHTGLASS](https://github.com/bbrookhart/nightglass), [FALSEPROXY](https://github.com/bbrookhart/falseproxy), and [GHOSTLEDGER](https://github.com/bbrookhart/ghostledger). |
 | **AEGIS-PQ** | Identity and authority roots remain verifiable through cryptographic transition | Human/workload identity ↔ capability issuer | **Planned system.** [HARVEST//ZERO](https://github.com/bbrookhart/harvest-zero) supplies current evidence for cryptographic discovery, dependency-aware migration, CBOM, crypto agility, and measured PQC operations. It is not yet the identity and attestation fabric. |
 | **VERITAS** | Important artifacts and evidence carry inspectable origin and integrity | Producer ↔ consumer across the artifact lifecycle | **Planned system.** [IRONVEIL](https://github.com/bbrookhart/ironveil) supplies current evidence for source-to-installed-state software and firmware provenance, release authorization, and update integrity. It is not yet a general digital-authenticity infrastructure. |
 | **CONTINUITY** | Knowledge and culture survive deletion, corruption, manipulation, and infrastructure loss | Preservation authority ↔ distributed storage and recovery | **Planned system.** Architecture, collection policy, authenticity, rights, replication, recovery, and threat modeling precede implementation. No public implementation claim is made yet. |
@@ -31,6 +31,7 @@ flowchart TD
     A --> V["VIGIL digital action control"]
     V --> S["SENTINEL physical safety"]
     F["FAULTLINE evaluation"] --> V
+    V -->|"authorizes response"| F
     F --> S
     R["VERITAS provenance"] --> C["CONTINUITY preservation"]
     A --> R
@@ -41,6 +42,7 @@ These are conceptual interfaces, not a claim that a shared production protocol e
 - **AEGIS-PQ → VIGIL:** verified human and workload identity, attestation, and authority roots.
 - **VIGIL → SENTINEL:** a versioned authorization result with task, action, resource, limits, expiry, provenance, and revocation state. SENTINEL still evaluates physical safety independently.
 - **FAULTLINE → VIGIL/SENTINEL:** matched attacks, benign controls, ablations, effect-level measurements, and reproducible evidence.
+- **VIGIL → FAULTLINE:** signed, scoped, expiring, single-use capabilities that authorize one proposed remediation against one canonical resource. FAULTLINE holds verification keys only; it can propose a change and prove whether it worked, but it cannot issue itself permission to make one.
 - **VERITAS → CONTINUITY:** provenance, integrity, authenticity, custody, and cryptographic-transition metadata for preserved objects.
 - **AEGIS-PQ → VERITAS:** durable identity and signing trust through algorithm transition.
 
@@ -61,7 +63,7 @@ Repository size, screenshots, test counts, and simulated scenarios do not indepe
 
 1. **VIGIL authority boundary:** keep policy, approvals, state, and keys outside the agent account; bind decisions to race-resistant execution; establish complete mediation only for explicitly declared environments.
 2. **Authority Without Trust experiments:** compare naive, static-policy, and VIGIL-mediated agents on matched benign and adversarial tasks; measure prevented effects, task utility, approval burden, latency, and failure modes.
-3. **FAULTLINE synthesis:** turn the existing evaluation projects into a coherent protocol and artifact model without erasing their distinct research questions.
+3. **FAULTLINE synthesis:** turn the existing evaluation projects into a coherent protocol and artifact model without erasing their distinct research questions, and prove the closed response loop against a real cluster rather than a synthetic range.
 4. **SENTINEL interface:** define the smallest digital-to-physical authorization contract and validate it against BLACKSTART safety invariants before building a new runtime.
 5. **AEGIS-PQ and VERITAS interfaces:** specify identity, attestation, provenance, revocation, and algorithm-agility requirements using HARVEST//ZERO and IRONVEIL evidence.
 6. **CONTINUITY threat model:** define preservation scope, authenticity, lawful custody, redundancy, offline recovery, and post-quantum migration before selecting infrastructure.
