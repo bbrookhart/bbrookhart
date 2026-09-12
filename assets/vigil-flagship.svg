@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
   <title id="title">VIGIL — runtime safety and security control plane for autonomous AI agents</title>
-  <desc id="desc">VIGIL treats autonomous agents as untrusted principals and mediates process, filesystem, network, tool, and credential authority through deterministic policy, signed capabilities, provenance, approval, and tamper-evident audit. The implementation is private.</desc>
+  <desc id="desc">VIGIL treats autonomous agents as untrusted principals and mediates process, filesystem, network, tool, and credential authority through deterministic policy, signed capabilities, provenance, approval, and tamper-evident audit. In a fourteen-case comparison scored on observed side effects, an unprotected agent completed ten of ten attacks and VIGIL zero of ten; removing the workspace boundary alone reopened five, attributing those preventions to that mechanism. The adversary is scripted, so this measures the enforcement layer rather than model susceptibility. The implementation is private.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#06101c"/>
@@ -26,29 +26,29 @@
   <rect x="52" y="34" width="1096" height="3" rx="1.5" fill="url(#accent)"/>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="56" y="73" fill="#5eead4" font-size="14" font-weight="750" letter-spacing="2.4">PRIVATE IMPLEMENTATION // AGENT RUNTIME AUTHORITY</text>
+    <text x="56" y="73" fill="#5eead4" font-size="14" font-weight="750" letter-spacing="2.4">MEASURED COMPARISON // PRIVATE IMPLEMENTATION // AGENT RUNTIME AUTHORITY</text>
     <text x="56" y="113" fill="#f2fbff" font-size="30" font-weight="800">VIGIL</text>
     <text x="56" y="141" fill="#91a8bf" font-size="16" letter-spacing="0.5">Stop unsafe action before it becomes consequence.</text>
 
     <g filter="url(#shadow)" transform="translate(56 176)">
       <rect width="246" height="105" rx="13" fill="#0d1c30" stroke="#24415f"/>
-      <text x="18" y="40" fill="#38bdf8" font-size="27" font-weight="800">991 / 199 / 11</text>
-      <text x="18" y="67" fill="#e5edf6" font-size="15" font-weight="650">Rust · Swift · Python</text>
-      <text x="18" y="89" fill="#7892ad" font-size="12">generated source test entry points</text>
+      <text x="18" y="40" fill="#38bdf8" font-size="27" font-weight="800">10/10 → 0/10</text>
+      <text x="18" y="67" fill="#e5edf6" font-size="15" font-weight="650">attacks completed</text>
+      <text x="18" y="89" fill="#7892ad" font-size="12">unprotected → VIGIL · side effects</text>
     </g>
 
     <g filter="url(#shadow)" transform="translate(318 176)">
       <rect width="246" height="105" rx="13" fill="#0d2227" stroke="#246052"/>
-      <text x="18" y="40" fill="#2dd4bf" font-size="31" font-weight="800">25</text>
-      <text x="18" y="67" fill="#e9fbf6" font-size="15" font-weight="650">adversarial harness tests</text>
-      <text x="18" y="89" fill="#7ea99e" font-size="12">runtime enforcement validation</text>
+      <text x="18" y="40" fill="#2dd4bf" font-size="31" font-weight="800">5 / 10</text>
+      <text x="18" y="67" fill="#e9fbf6" font-size="15" font-weight="650">reopened by one ablation</text>
+      <text x="18" y="89" fill="#7ea99e" font-size="12">mechanism ablation, not one number</text>
     </g>
 
     <g filter="url(#shadow)" transform="translate(580 176)">
       <rect width="246" height="105" rx="13" fill="#17182e" stroke="#51428d"/>
-      <text x="18" y="40" fill="#a78bfa" font-size="31" font-weight="800">21 + 14</text>
-      <text x="18" y="67" fill="#f2efff" font-size="15" font-weight="650">attack paths + fuzz targets</text>
-      <text x="18" y="89" fill="#aaa1ca" font-size="12">generated evidence inventory</text>
+      <text x="18" y="40" fill="#a78bfa" font-size="23" font-weight="800">1,056 / 199 / 11</text>
+      <text x="18" y="67" fill="#f2efff" font-size="15" font-weight="650">Rust · Swift · Python</text>
+      <text x="18" y="89" fill="#aaa1ca" font-size="12">generated source test entry points</text>
     </g>
 
     <g transform="translate(852 170)">
