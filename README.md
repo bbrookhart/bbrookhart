@@ -131,7 +131,9 @@ It now closes the loop. The same minimum-control-cut reasoning produces a typed 
 
 VIGIL is a local runtime safety and security control plane that treats autonomous agents as untrusted principals. It mediates process, filesystem, network, tool, and credential authority through deterministic policy, signed capabilities, provenance and taint tracking, action budgets, approval gates, and tamper-evident audit before protected execution.
 
-**Current generated evidence:** inventory of 991 Rust, 199 Swift, and 11 Python source test entry points; 25 adversarial harness tests; 21 named attack paths; 14 fuzz targets; 64 ADRs; and 18 workspace crates. This is implementation and test evidence, not a claim of production-world safety or complete platform validation. Apple entitlement-dependent device validation remains.
+**Measured comparison:** across 14 attack and benign cases in seven families, scored on observed side effects rather than transcripts, the unprotected arm completed 10/10 attacks, a static pattern filter 6/10, and VIGIL 0/10 — while VIGIL completed 3 of 4 benign tasks outright and escalated the fourth to human approval rather than denying it. The pattern filter falsely denied one outright. Removing VIGIL's workspace boundary alone reopened 5 of the 10, attributing those preventions to that mechanism rather than to the system in general. This is a scripted adversary, not a language model: it measures the enforcement layer, not model susceptibility.
+
+**Current generated evidence:** inventory of 1,056 Rust, 199 Swift, and 11 Python source test entry points; 25 adversarial harness tests; 21 named attack paths; 14 fuzz targets; 67 ADRs; 19 workspace crates; and 0 unsafe Rust constructs. CI now executes the full suite — including both macOS adapters, a kind + Cilium non-bypassability run, and the fuzz campaign. This is implementation, test, and bounded-experiment evidence, not a claim of production-world safety. Apple entitlement-dependent activated-device validation remains.
 
 **Stop unsafe action before it becomes consequence.**
 
