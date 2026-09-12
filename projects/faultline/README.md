@@ -22,6 +22,19 @@
 
 ---
 
+## By the numbers
+
+| | | |
+|---|---|---|
+| **5** registered consequential operations | **0** shell, generic-patch or cluster-admin code paths | **R0–R5** autonomy tiers, derived from the operation registry |
+| **8** independently evaluated verification rows | **5** verdicts, with `UNKNOWN` never promoted to success | **3** response rounds maximum, never repeating a control |
+| **≤30 min** capability TTL, single-use, ledger-redeemed | **1,775** automated Python tests | **60/60** OPA policy tests (16 on response admission) |
+| 236/720 → **0/720** AI-agent attack trials | 371/600 → **0/600** MCP attack trials | 381/630 → **0/630** coding-agent attack trials |
+
+Every figure above is measured against synthetic labs, a synthetic cyber range, and a real PostgreSQL journal. None of it is measured against a real cluster.
+
+---
+
 ## FAULTLINE in 30 seconds
 
 Security tooling often produces findings in isolation. FAULTLINE asks a harder question:
@@ -179,7 +192,7 @@ The response plane carries its own evidence:
 | Single use under concurrency | Twelve database connections racing one single-use capability yield one success and eleven refusals; eight concurrent journal writers produce one unbroken hash chain — enforced by unique constraints, not application logic |
 | Crash resumption | Kills injected at each transition, replayed in memory and over real PostgreSQL, with the estate changed exactly once |
 | Least privilege on the executor | Namespaced Kubernetes RBAC with no `delete` on pods, no secret access, no `pods/exec`, and no ClusterRole |
-| Scale of automated checking | **1,775** automated Python tests and **60** OPA policy tests, 16 of which cover response admission alone |
+| Scale of automated checking | **1,775** automated Python tests and **60/60** OPA policy tests, 16 of which cover response admission alone |
 
 These are **controlled evaluations against a synthetic estate, not production-world efficacy claims.** The response loop has not yet been run against a real Kubernetes cluster or a real identity provider.
 
