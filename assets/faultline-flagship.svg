@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
   <title id="title">Faultline — continuous adversarial validation across AI and cloud</title>
-  <desc id="desc">Faultline traces cross-layer attack paths from AI input through agent tools, identity, cloud infrastructure, and critical assets, then verifies whether defensive changes break those paths. Synthetic lab evidence includes AI-agent, MCP, and coding-agent baseline-to-hardened comparisons.</desc>
+  <desc id="desc">Faultline traces cross-layer attack paths from AI input through agent tools, identity, cloud infrastructure, and critical assets, then applies the smallest breaking change under external authorization and verifies from independent re-observation whether the path is gone. Synthetic lab evidence includes AI-agent, MCP, and coding-agent baseline-to-hardened comparisons.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#06101c"/>
@@ -72,6 +72,6 @@
     <text x="827" y="337" text-anchor="middle" fill="#99afc3" font-size="12" font-weight="700">CLOUD</text>
     <text x="1054" y="337" text-anchor="middle" fill="#99afc3" font-size="12" font-weight="700">CONSEQUENCE</text>
 
-    <text x="600" y="370" text-anchor="middle" fill="#d8e7f2" font-size="12" font-weight="700" letter-spacing="1.6">MEASURE THE PATH · VERIFY THE FIX · PRESERVE LEGITIMATE WORK</text>
+    <text x="600" y="370" text-anchor="middle" fill="#d8e7f2" font-size="12" font-weight="700" letter-spacing="1.6">FIND THE PATH · CUT IT UNDER AUTHORITY · PROVE IT HELD</text>
   </g>
 </svg>
