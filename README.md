@@ -41,42 +41,6 @@ My portfolio is organized around one end-to-end research thesis:
 
 ---
 
-### Emerging Safety Research Track
-
-These studies extend the existing security portfolio upward from **protecting systems from AI failure** to also measuring **how foundation-model behavior can affect people and human decision-making**.
-
-#### [AUTONOMY EVALS — Preserving Human Agency](https://github.com/bbrookhart/autonomy-evals)
-
-**Status: active research**
-
-Research question:
-
-> Under what conversational conditions do foundation-model assistants exhibit behaviors that may undermine a user's epistemic, value, or action autonomy, and can targeted interventions reduce those behaviors without materially degrading helpfulness?
-
-The claim boundary is explicit: these evaluations measure **model behaviors associated with autonomy-preserving or autonomy-undermining interaction patterns**; they do not establish psychological or societal harm to people.
-
-#### AI Persuasion & Human Influence
-
-**Status: planned follow-on study; human-subject work contingent on appropriate ethics review**
-
-Planned question:
-
-> When does AI-generated or personalized communication change human beliefs, confidence, and source trust, and which design interventions preserve autonomy while retaining legitimate decision support?
-
-The study will begin with replication or reanalysis of existing public persuasion datasets before any original participant recruitment.
-
-#### Human Oversight Under Agentic Misalignment
-
-**Status: planned experimental evaluation**
-
-Planned question:
-
-> Which human-oversight and technical-control mechanisms most effectively prevent policy-violating actions by goal-directed agents, and what operational cost do those safeguards impose?
-
-The evaluation will use simulated organizational environments, synthetic data, controlled goal conflict, approval policies, permission boundaries, and measurable safety–utility tradeoffs.
-
----
-
 ## Flagship Research // Start Here
 
 <a href="https://github.com/bbrookhart/autonomy-evals">
