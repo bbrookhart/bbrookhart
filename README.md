@@ -83,6 +83,46 @@ It now closes the loop. The same minimum-control-cut reasoning produces a typed 
 
 <br>
 
+<a href="https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY">
+  <img src="./assets/meridian-atlas-flagship.svg" alt="Meridian Atlas Security — adversarial evaluation, attack replay, and detection assurance" width="100%" />
+</a>
+
+<div align="center">
+
+### [MERIDIAN ATLAS SECURITY](https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY)
+
+**Adversarial AI Evaluation · Attack Replay · Detection Assurance · Telemetry Validation**
+
+Meridian Atlas asks whether adversarial AI evaluation can move past counting jailbreaks and instead connect attack replay, telemetry, and detection into a measurable claim of assurance. It replays matched attack and benign sessions, retests conditions for stability, and treats the detector itself — not just the model — as something to be evaluated.
+
+**Current evidence:** 45 attack replays plus 65 benign sessions; N=20 retests per condition with Wilson 95% confidence intervals; measured detection failures including a rule operating at 13.5% precision and silent telemetry defects that would otherwise hide missed detections.
+
+**Replay the attack. Watch the detector. Measure what telemetry missed.**
+
+</div>
+
+<br>
+
+<a href="https://github.com/bbrookhart/falseproxy">
+  <img src="./assets/falseproxy-flagship.svg" alt="Falseproxy — identity, scope, and revocation under MCP/A2A delegation" width="100%" />
+</a>
+
+<div align="center">
+
+### [FALSEPROXY](https://github.com/bbrookhart/falseproxy)
+
+**MCP & A2A Delegation Security · Identity & Provenance · Scope Boundaries · Revocation**
+
+Falseproxy asks whether identity, provenance, scope, audience, and revocation survive delegation across MCP and A2A hops, or whether authority quietly widens or outlives its grant somewhere along the chain. Each attack scenario is paired with a matched benign control so a blocked delegation can be distinguished from a broken one.
+
+**Current evidence:** 96 declarative scenarios across 18 attack classes with matched benign controls, run through a reproducible technical-preview pipeline. Real-model and production-scale delegation evidence remain outstanding.
+
+**Trace the delegation. Test the boundary. Prove revocation holds.**
+
+</div>
+
+<br>
+
 <a href="https://github.com/bbrookhart/bbrookhart/tree/main/projects/vigil">
   <img src="./assets/vigil-flagship.svg" alt="VIGIL — runtime safety and security control plane for autonomous AI agents" width="100%" />
 </a>

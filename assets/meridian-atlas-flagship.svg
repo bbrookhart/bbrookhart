@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Meridian Atlas Security — adversarial evaluation, attack replay, and detection assurance</title>
+  <desc id="desc">Meridian Atlas Security connects attack replay, telemetry, and detection into a measurable claim of assurance rather than stopping at jailbreak counts. Current evidence covers 45 attack replays plus 65 benign sessions, N=20 retests per condition with Wilson 95% confidence intervals, and measured detection failures including a rule operating at 13.5% precision and silent telemetry defects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101c"/>
+      <stop offset="0.58" stop-color="#0f1420"/>
+      <stop offset="1" stop-color="#241a12"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.52" stop-color="#f8c55c"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#8ddcf0" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="390" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="390" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="19" fill="none" stroke="#203552" stroke-width="2"/>
+  <rect x="52" y="34" width="1096" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="56" y="73" fill="#f8c55c" font-size="14" font-weight="750" letter-spacing="2.4">RESEARCH ARTIFACT // ADVERSARIAL EVALUATION, DETECTION, ASSURANCE</text>
+    <text x="56" y="113" fill="#f2fbff" font-size="30" font-weight="800">MERIDIAN ATLAS SECURITY</text>
+    <text x="56" y="141" fill="#91a8bf" font-size="16" letter-spacing="0.5">Replay the attack. Then measure what the detector missed.</text>
+
+    <g filter="url(#shadow)" transform="translate(56 176)">
+      <rect width="246" height="105" rx="13" fill="#0d1c30" stroke="#24415f"/>
+      <text x="18" y="40" fill="#38bdf8" font-size="28" font-weight="800">45 + 65</text>
+      <text x="18" y="67" fill="#e5edf6" font-size="15" font-weight="650">attack + benign replays</text>
+      <text x="18" y="89" fill="#7892ad" font-size="12">matched adversarial evaluation</text>
+    </g>
+
+    <g filter="url(#shadow)" transform="translate(318 176)">
+      <rect width="246" height="105" rx="13" fill="#211a10" stroke="#6b4d1d"/>
+      <text x="18" y="40" fill="#f8c55c" font-size="29" font-weight="800">N = 20</text>
+      <text x="18" y="67" fill="#fff7e6" font-size="15" font-weight="650">retests per condition</text>
+      <text x="18" y="89" fill="#bca276" font-size="12">Wilson 95% CIs</text>
+    </g>
+
+    <g filter="url(#shadow)" transform="translate(580 176)">
+      <rect width="246" height="105" rx="13" fill="#24121c" stroke="#6b2d3f"/>
+      <text x="18" y="40" fill="#fb7185" font-size="31" font-weight="800">13.5%</text>
+      <text x="18" y="67" fill="#fde8ec" font-size="15" font-weight="650">precision, weakest rule</text>
+      <text x="18" y="89" fill="#c497a3" font-size="12">plus silent telemetry defects</text>
+    </g>
+
+    <g transform="translate(852 170)">
+      <rect width="296" height="117" rx="14" fill="#0b1725" stroke="#2e5369"/>
+      <text x="20" y="28" fill="#8fa6bf" font-size="11" font-weight="750" letter-spacing="1.8">RESEARCH QUESTION</text>
+      <text x="20" y="55" fill="#e8f8ff" font-size="15" font-weight="750">Does detection survive</text>
+      <text x="20" y="76" fill="#e8f8ff" font-size="15" font-weight="750">replay, or just count the</text>
+      <text x="20" y="97" fill="#e8f8ff" font-size="15" font-weight="750">jailbreaks that got through?</text>
+    </g>
+
+    <path d="M178 309 H1022" fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.65"/>
+    <circle cx="178" cy="309" r="4" fill="#38bdf8"/>
+    <circle cx="459" cy="309" r="4" fill="#7dd3fc"/>
+    <circle cx="740" cy="309" r="4" fill="#f8c55c"/>
+    <circle cx="1022" cy="309" r="4" fill="#fb7185"/>
+
+    <text x="178" y="337" text-anchor="middle" fill="#99afc3" font-size="12" font-weight="700">ATTACK REPLAY</text>
+    <text x="459" y="337" text-anchor="middle" fill="#99afc3" font-size="12" font-weight="700">TELEMETRY</text>
+    <text x="740" y="337" text-anchor="middle" fill="#99afc3" font-size="12" font-weight="700">DETECTION</text>
+    <text x="1022" y="337" text-anchor="middle" fill="#99afc3" font-size="12" font-weight="700">ASSURANCE</text>
+
+    <text x="600" y="370" text-anchor="middle" fill="#d8e7f2" font-size="12" font-weight="700" letter-spacing="1.6">REPLAY THE ATTACK · MEASURE DETECTION · EXPOSE THE TELEMETRY GAP</text>
+  </g>
+</svg>
