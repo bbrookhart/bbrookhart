@@ -43,6 +43,26 @@ My portfolio is organized around one end-to-end research thesis:
 
 ## Flagship Research // Start Here
 
+<a href="https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY">
+  <img src="./assets/meridian-atlas-flagship.svg" alt="Meridian Atlas Security — adversarial evaluation, attack replay, and detection assurance" width="100%" />
+</a>
+
+<div align="center">
+
+### [MERIDIAN ATLAS SECURITY](https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY)
+
+**Adversarial AI Evaluation · Attack Replay · Detection Assurance · Telemetry Validation**
+
+Meridian Atlas asks whether adversarial AI evaluation can move past counting jailbreaks and instead connect attack replay, telemetry, and detection into a measurable claim of assurance. It replays matched attack and benign sessions, retests conditions for stability, and treats the detector itself — not just the model — as something to be evaluated.
+
+**Current evidence:** 45 attack replays plus 65 benign sessions; N=20 retests per condition with Wilson 95% confidence intervals; measured detection failures including a rule operating at 13.5% precision and silent telemetry defects that would otherwise hide missed detections.
+
+**Replay the attack. Watch the detector. Measure what telemetry missed.**
+
+</div>
+
+<br>
+
 <a href="https://github.com/bbrookhart/autonomy-evals">
   <img src="./assets/autonomy-evals-flagship.svg" alt="Preserving Human Agency — foundation model autonomy evaluation" width="100%" />
 </a>
@@ -88,20 +108,6 @@ It now closes the loop. The same minimum-control-cut reasoning produces a typed 
 </a>
 
 <div align="center">
-
-### [MERIDIAN ATLAS SECURITY](https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY)
-
-**Adversarial AI Evaluation · Attack Replay · Detection Assurance · Telemetry Validation**
-
-Meridian Atlas asks whether adversarial AI evaluation can move past counting jailbreaks and instead connect attack replay, telemetry, and detection into a measurable claim of assurance. It replays matched attack and benign sessions, retests conditions for stability, and treats the detector itself — not just the model — as something to be evaluated.
-
-**Current evidence:** 45 attack replays plus 65 benign sessions; N=20 retests per condition with Wilson 95% confidence intervals; measured detection failures including a rule operating at 13.5% precision and silent telemetry defects that would otherwise hide missed detections.
-
-**Replay the attack. Watch the detector. Measure what telemetry missed.**
-
-</div>
-
-<br>
 
 <a href="https://github.com/bbrookhart/falseproxy">
   <img src="./assets/falseproxy-flagship.svg" alt="Falseproxy — identity, scope, and revocation under MCP/A2A delegation" width="100%" />
