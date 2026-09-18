@@ -103,10 +103,6 @@ It now closes the loop. The same minimum-control-cut reasoning produces a typed 
 
 <br>
 
-<a href="https://github.com/bbrookhart/MERIDIAN-ATLAS-SECURITY">
-  <img src="./assets/meridian-atlas-flagship.svg" alt="Meridian Atlas Security — adversarial evaluation, attack replay, and detection assurance" width="100%" />
-</a>
-
 <div align="center">
 
 <a href="https://github.com/bbrookhart/falseproxy">
